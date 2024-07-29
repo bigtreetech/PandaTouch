@@ -1,2 +1,3 @@
 # FIX BUG
-Fixed the issue of crashes and restarts caused by upgrading to V1.0.4 when setting nozzle materials in versions prior to V1.0.4.
+Fix a bug:
+Upgrading to version V1.0.4 after setting the nozzle material using V1.0.1/V1.0.2/V1.0.3 will cause a crash and restart.
