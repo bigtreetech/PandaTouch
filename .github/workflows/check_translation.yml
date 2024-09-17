@@ -7,6 +7,8 @@ on:
       - main
     paths:
       - 'Translation/**/*.yml'  # Include yml files in Translation and all its subfolders
+  issue_comment:
+    types: [created]  # Trigger on new comments
 
 jobs:
   run-python:
