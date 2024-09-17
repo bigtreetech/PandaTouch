@@ -1,0 +1,55 @@
+name: Sync New English With Translations
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - main
+
+jobs:
+  run-python:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false  # We need to push the changes, so disable credential persistence
+
+      # Step to set up Python if necessary
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.12'  # Adjust based on your Python version
+
+      - name: Install dependencies
+        run: pip install ruamel.yaml
+
+      # Step to run the Python script and capture errors
+      - name: Run Python script
+        run: |
+          set -o pipefail
+          python WorkflowScripts/sync_translations.py 2>&1 | tee python_output.log || (cat python_output.log && exit 1)
+
+      # Step to configure Git
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      # Step to check if there are changes
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --exit-code || echo "changes detected"
+
+      # Step to add, commit, and push changes if there are any
+      - name: Commit and push changes
+        if: steps.changes.outputs.changes == 'changes detected'
+        run: |
+          git add .
+          git commit -m "Apply changes from Python script"
+          git push origin HEAD:${{ github.ref }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

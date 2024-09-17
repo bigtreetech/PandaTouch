@@ -1,0 +1,32 @@
+name: Check the translation for errors
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    branches:
+      - main
+    paths:
+      - 'Translation/**/*.yml'  # Include yml files in Translation and all its subfolders
+
+jobs:
+  run-python:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Install Python
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.12' 
+
+      - name: Install dependencies
+        run: pip install ruamel.yaml
+
+      # Step to run the Python script and capture errors
+      - name: Run Python script
+        run: |
+          set -o pipefail  # Ensure the script fails if Python script fails
+          python WorkflowScripts/sync_translations.py 2>&1 | tee python_output.log || (cat python_output.log && exit 1)
