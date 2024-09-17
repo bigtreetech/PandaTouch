@@ -13,10 +13,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Clone main git repo
+        uses: actions/checkout@v2
+        with:
+          path: MAIN_REPO
       - name: Checkout pull request
         uses: actions/checkout@v3
         with:
           ref: refs/pull/${{ github.event.issue.number }}/head
+          path: PR_REPO  # Files will be checked out to the 'PR-REPO' directory
 
       # Install Python
       - name: Set up Python
@@ -31,7 +36,4 @@ jobs:
       - name: Run Python script
         run: |
           set -o pipefail  # Ensure the script fails if Python script fails
-          python WorkflowScripts/sync_translations.py 2>&1 | tee python_output.log || (cat python_output.log && exit 1)
-        env:
-          PR_BRANCH: ${{ github.event.pull_request.head.ref }}
-          PR_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+          python MAIN_REPO/WorkflowScripts/sync_translations.py 2>&1 | tee python_output.log || (cat python_output.log && exit 1)
