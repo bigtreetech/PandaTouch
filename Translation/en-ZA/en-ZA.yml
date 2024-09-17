@@ -7,7 +7,7 @@ en-ZA:
   sleep_time_t_10: '10min'
   sleep_time_t_15: '15min'
   sleep_time_t_60: '60min'
-  sleep_time_t_always: 'Always On'.
+  sleep_time_t_always: 'Always On'
   spurious_key: 'I should not be here'
   setting_gen_t: 'General'
   setting_net_t: 'Network'
