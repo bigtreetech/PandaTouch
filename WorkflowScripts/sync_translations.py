@@ -12,7 +12,7 @@ def sync_yml_files(master_file='en-GB.yml'):
         repo_root = os.environ.get('GITHUB_WORKSPACE', '')
         
         # Set the working directory to the Translations folder
-        working_dir = os.path.join(repo_root, 'Translations')
+        working_dir = os.path.join(repo_root, 'Translation')
         os.chdir(working_dir)
 
         # Read the master file
