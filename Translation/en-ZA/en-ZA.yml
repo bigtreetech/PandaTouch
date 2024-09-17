@@ -1,7 +1,7 @@
 en-ZA: 
 #SETTING PAGE
   lang_name_t: 'English Boet'
-  spurious_key_2: 'I too should not be here'.
+  spurious_key_2: 'I too should not be here'
   sleep_time_t_2: '2min'
   sleep_time_t_5: '5min'
   sleep_time_t_10: '10min'
