@@ -12,8 +12,9 @@ def sync_yml_files(master_file='en-GB.yml'):
         repo_root = os.environ.get('GITHUB_WORKSPACE', '')
         
         # Set the working directory to the Translations folder
-        working_dir = os.path.join(repo_root, 'Translation')
+        working_dir = os.path.join(repo_root, 'Translations')
         os.chdir(working_dir)
+        print(f"Working directory set to: {working_dir}")
 
         # Read the master file
         with open(master_file, 'r') as f:
@@ -24,12 +25,15 @@ def sync_yml_files(master_file='en-GB.yml'):
 
         # Walk through subdirectories
         for root, dirs, files in os.walk('.'):
+            print(f"Walking directory: {os.path.abspath(root)}")
             if root == '.':
+                print("Skipping current directory")
                 continue  # Skip the current directory
 
             for file in files:
                 if file.endswith('.yml'):
                     target_file = os.path.join(root, file)
+                    print(f"Processing file: {target_file}")
                     
                     # Read the target file
                     with open(target_file, 'r') as f:
