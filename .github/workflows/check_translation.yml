@@ -7,7 +7,7 @@ on:
       - 'Translation/**/*.yml'  # Include yml files in Translation and all its subfolders
 
 jobs:
-  check_yml:
+  run-python:
     runs-on: ubuntu-latest
 
     steps:
