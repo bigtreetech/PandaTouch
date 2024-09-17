@@ -8,8 +8,11 @@ def sync_yml_files(master_file='en-GB.yml'):
     yaml.width = 4096  # To avoid wrapping long lines
 
     try:
-        # Set the working directory
-        working_dir = 'Translation/'
+        # Get the root of the repository
+        repo_root = os.environ.get('GITHUB_WORKSPACE', '')
+        
+        # Set the working directory to the Translations folder
+        working_dir = os.path.join(repo_root, 'Translations')
         os.chdir(working_dir)
 
         # Read the master file
