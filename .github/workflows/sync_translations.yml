@@ -43,13 +43,13 @@ jobs:
         if: env.CHANGES_DETECTED == 'true'
         run: |
           git add .
+          git config --global user.name "BTTACTIONBOT"
+          git config --global user.email "BTTACTIONBOT@bigtree-tech.com"
           git commit -m "Apply automatic updates"
         working-directory: PR_REPO
 
       - name: Push changes
         if: env.CHANGES_DETECTED == 'true'
         run: |
-          git config --global user.name "BTTACTIONBOT"
-          git config --global user.email "BTTACTIONBOT@bigtree-tech.com"
           git push
         working-directory: PR_REPO
