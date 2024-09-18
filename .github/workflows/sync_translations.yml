@@ -1,7 +1,7 @@
 name: Sync New English With Translations
 
 on:
-  pull_request:
+  pull_request_target:
     types: [closed]
     branches:
       - master
