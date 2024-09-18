@@ -8,7 +8,7 @@ If you would like to help by translating the Panda Touch UI into your native lan
 2. Create your own branch on your fork.
 3. Check your branch out locally.
 4. Add this repo as an upstream source for your fork.
-5. Create a new folder within this folder that uses the naming format "PT-<2 char language ISO code>-<2 char country ISO code>".
+5. Create a new folder within this folder that uses the naming format "<2 char language ISO code>-<2 char country ISO code>".
 
 - You can find the two character language ISO code on this wikipedia page under the 'Set 1' column: https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes
 - You can find the two character country ISO code on this wikipedia page under the 'Set 1' column: https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes
