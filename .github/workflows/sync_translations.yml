@@ -15,7 +15,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
-          persist-credentials: false  # We need to push the changes, so disable credential persistence
+          token: ${{secrets.PAT}}
           path: PR_REPO  # Files will be checked out to the 'PR-REPO' directory
 
       # Step to set up Python if necessary
@@ -42,8 +42,6 @@ jobs:
       - name: Commit changes if detected
         if: env.CHANGES_DETECTED == 'true'
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Apply automatic updates"
         working-directory: PR_REPO
@@ -52,7 +50,4 @@ jobs:
         if: env.CHANGES_DETECTED == 'true'
         run: |
           git push
-        env:
-          # Use GitHub's automatically provided token for authentication
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         working-directory: PR_REPO
