@@ -460,10 +460,10 @@ es-ES:
 
 #NEW ADD
   tip_printer_group_max: 'Panda Touch actualmente sólo soporta %d grupo de impresoras.'
-  tip_one_master_at_least: 'Debería mantener al menos una impresora maestra en un grupo.'
+  tip_one_master_at_least: 'Deberíasmantener al menos una impresora maestra en un grupo.'
   tip_one_select_at_least: |
     Por favor, mantenga una impresora maestra en un grupo. si quieres eliminar el grupo, puede pulsar el botón atrás y eliminarlo mediante el botón eliminar. 
-  tip_remove_group_confirm: 'Por favor, confirma que quiere eliminar este grupo de impresoras del Panda Touch.'
+  tip_remove_group_confirm: 'Por favor, confirme que quiere eliminar este grupo de impresoras del Panda Touch.'
   tip_group_same_name: 'Existe el mismo grupo, por favor renómbralo.'
   tip_printer_in_group: 'La impresora ha sido seleccionada en el grupo, por favor elimínela del grupo.'
   tip_reprint_group_printer: 'Esto sólo reimprimirá el archivo en esta impresora.'
