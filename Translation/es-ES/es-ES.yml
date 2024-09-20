@@ -363,7 +363,7 @@ es-ES:
     ¡No se puede conectar a la impresora!
     Asegúrese de que la impresora está encendida y en la misma red LAN que el Panda Touch o haz clic en "Editar" para comprobar y volver a editar la "IP" y el "SN". 
     Dado que se trata de la "Master", otra impresora del grupo se asignará temporalmente como "Master". 
-    Si has apagado la impresora, ignora este mensaje. 
+    Si ha apagado la impresora, ignore este mensaje. 
     Para solucionar problemas de conexión, escanee el código QR.
   mqtt_master_error: |
     ¡No se puede conectar a la impresora!
@@ -410,7 +410,7 @@ es-ES:
   guide_ota_not_finished: 'La OTA aún no ha finalizado'
   guide_ota_remind: |
     Utilice un ordenador en la misma red WiFi, que puede ser un ordenador o un dispositivo móvil que ejecute un sistema operativo como iOS o Android. 
-     • Introduce la dirección IP de Panda Touch en el navegador del ordenador para acceder a la interfaz web y, a continuación, haz clic en el botón "Actualizar archivo".  
+     • Introduzca la dirección IP de Panda Touch en el navegador del ordenador para acceder a la interfaz web y, a continuación, haz clic en el botón "Actualizar archivo".  
      • Haga clic en el botón "Elegir archivo" y, a continuación, seleccione el archivo .img descargado. 
      • Panda Touch comenzará a actualizarse automáticamente. 
   guid_ota_connect_wifi: 'Conéctese a Internet seleccionando la red WiFi de la derecha e introduciendo la contraseña. Si la red a la que desea conectarse no aparece, haga clic en el botón Actualizar.'
@@ -426,8 +426,8 @@ es-ES:
   t_password: 'Password:'
   t_region_china: 'CHINA'
   t_region_global: 'GLOBAL'
-  tip_phone_incorrect: 'Introduce un número de teléfono válido'
-  tip_email_incorrect: 'Introduce un correo electrónico válido'
+  tip_phone_incorrect: 'Introduzca un número de teléfono válido'
+  tip_email_incorrect: 'Introduzca un correo electrónico válido'
   tip_account_not_reg: 'Error al iniciar sesión, esta cuenta no está registrada.'
   tip_password_incorrect: 'Error al iniciar sesión, compruebe la contraseña.'
   tip_network_error: 'Error al iniciar sesión, compruebe la red.'
@@ -438,7 +438,7 @@ es-ES:
   tip_account_sync_ok: 'Las impresoras fueron convertidas exitosamente al modo nube. Puedes ver el estado actual del modo de cada impresora en la página multidispositivo.'
   tip_account_sync_error: 'Algunas impresoras no pudieron ser convertidas al modo nube. Por favor, compruebe su WiFi y la configuración del modo nube e inténtelo de nuevo.'
   tip_account_sync_zero: 'No hay impresoras en la nube en la cuenta actual. Por favor, añada una impresora a esta cuenta y vuelva a iniciar sesión.'
-  tip_printer_without_cloud: 'Esta impresora aún no ha sido vinculada a esta cuenta. Por favor use BambuLab Studio o Handy para agregar la impresora antes de habilitar la nube.'
+  tip_printer_without_cloud: 'Esta impresora aún no ha sido vinculada a esta cuenta. Por favor, use BambuLab Studio o Handy para agregar la impresora antes de habilitar la nube.'
   tip_printer_login_account: 'Por favor, conéctese primero a una cuenta'
   tip_account_error: 'Su cuenta está experimentando problemas. Compruebe si se ha producido algún cambio en su nombre de cuenta o contraseña. Compruebe también que la región de su cuenta coincide con tu ubicación actual.'
   tip_account_network_error: 'Tu conexión de red está experimentando problemas. Por favor, compruebe si la contraseña de red ha sido cambiada e intente reconectarse para restaurar la conexión a la nube de la impresora.'
@@ -460,9 +460,9 @@ es-ES:
 
 #NEW ADD
   tip_printer_group_max: 'Panda Touch actualmente sólo soporta %d grupo de impresoras.'
-  tip_one_master_at_least: 'Deberíasmantener al menos una impresora maestra en un grupo.'
+  tip_one_master_at_least: 'Debería mantener al menos una impresora maestra en un grupo.'
   tip_one_select_at_least: |
-    Por favor, mantenga una impresora maestra en un grupo. si quieres eliminar el grupo, puede pulsar el botón atrás y eliminarlo mediante el botón eliminar. 
+    Por favor, mantenga una impresora maestra en un grupo. si quiere eliminar el grupo, puede pulsar el botón atrás y eliminarlo mediante el botón eliminar. 
   tip_remove_group_confirm: 'Por favor, confirme que quiere eliminar este grupo de impresoras del Panda Touch.'
   tip_group_same_name: 'Existe el mismo grupo, por favor renómbralo.'
   tip_printer_in_group: 'La impresora ha sido seleccionada en el grupo, por favor elimínela del grupo.'
@@ -519,7 +519,7 @@ es-ES:
     Reiniciar 
        Consumo
   t_reset_power_usage_print: 'Reiniciar Consumo'
-  tip_confirm_reset_power_usage: '¿Quieres reiniciar el consumo de energía?'
+  tip_confirm_reset_power_usage: '¿Quiere reiniciar el consumo de energía?'
   t_auto_off: 'Apagado automático'
   t_power_off_all: '¿Desea cerrar las IMPRESORAS vinculadas a PWR en el grupo?'
   t_pwr_has_been_bind: 'Este PWR ha sido vinculado por la Impresora %s ,Por favor, desvincúlelo antes de continuar.'
