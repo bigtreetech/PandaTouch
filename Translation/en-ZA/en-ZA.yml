@@ -60,7 +60,7 @@ en-ZA:
 #BUTTONS END
 
   set_net_wifi_scaned: 'Scanned WiFi'
-  welcome_tip: Please connect to the internet by selecting the WiFi network on the right and then entering the password. Hit refresh if you don't see the desired network. Hit next once you have connected to the desired network.
+  welcome_tip: 'Please connect to the internet by selecting the WiFi network on the right and then entering the password. Hit refresh if you don''t see the desired network. Hit next once you have connected to the desired network.'
   tip_scan_qrcode: 'Please use your phone to scan the QR code to access the online manual.'
   loading: 'Loading...'
   top_wifi_connect: 'Connecting to WiFi %s'
