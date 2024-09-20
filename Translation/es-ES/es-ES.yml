@@ -60,7 +60,7 @@ es-ES:
 #BUTTONS END
 
   set_net_wifi_scaned: 'Scanned WiFi'
-  welcome_tip: Por favor, conéctese a Internet seleccionando la red WiFi de la derecha e introduciendo la contraseña. Pulse actualizar si no ve la red deseada. Pulse siguiente cuando se haya conectado a la red deseada.
+  welcome_tip: 'Por favor, conéctese a Internet seleccionando la red WiFi de la derecha e introduciendo la contraseña. Pulse actualizar si no ve la red deseada. Pulse siguiente cuando se haya conectado a la red deseada.'
   tip_scan_qrcode: 'Por favor, utilice su teléfono para escaneer el código QR y acceder al manual online.'
   loading: 'Cargando...'
   top_wifi_connect: 'Conectando a WiFi %s'
@@ -115,8 +115,8 @@ es-ES:
 #PRINT  
 #TIPS  
   tip_input_optional: '(Opcional)'
-  tip_input_name: '(Obligatorio)Introduzca el nombre de su impresora'
-  tip_input_ip: '(Obligatorio)Introduzca la IP de su impresora'
+  tip_input_name: '(Obligatorio)Introduzca el nombre de tu impresora'
+  tip_input_ip: '(Obligatorio)Introduzca la IP de tu impresora'
   tip_input_acescd: '(Requerido)Introduzca tu código de acceso'
   tip_input_sn: '(Requerido)Introduzca el SN'
   pop_tip_add_dev: 'Por favor, confirme que quiere añadir esta conexión de impresora a Panda Touch'

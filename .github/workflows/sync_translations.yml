@@ -1,0 +1,55 @@
+name: Sync New English With Translations
+
+on:
+  pull_request_target:
+    types: [closed]
+    branches:
+      - master
+
+jobs:
+  sync-trans:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PAT }}
+          path: PR_REPO  # Files will be checked out to the 'PR-REPO' directory
+
+      # Step to set up Python if necessary
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.12'  # Adjust based on your Python version
+
+      - name: Install dependencies
+        run: pip install ruamel.yaml
+
+      # Step to run the Python script and capture errors
+      - name: Run Sync
+        run: |
+          set -o pipefail
+          python PR_REPO/WorkflowScripts/sync_translations.py 2>&1 | tee python_output.log || (cat python_output.log && exit 1)
+
+      - name: Check for changes
+        id: check_diff
+        run: |
+          git diff --quiet --exit-code || echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
+        working-directory: PR_REPO
+
+      - name: Commit changes if detected
+        if: env.CHANGES_DETECTED == 'true'
+        run: |
+          git add .
+          git config --global user.name "BTTACTIONBOT"
+          git config --global user.email "BTTACTIONBOT@bigtree-tech.com"
+          git commit -m "Apply automatic updates"
+        working-directory: PR_REPO
+
+      - name: Push changes
+        if: env.CHANGES_DETECTED == 'true'
+        run: |
+          git push
+        working-directory: PR_REPO
