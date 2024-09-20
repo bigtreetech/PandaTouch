@@ -8,16 +8,17 @@ If you would like to help by translating the Panda Touch UI into your native lan
 2. Create your own branch on your fork.
 3. Check your branch out locally.
 4. Add this repo as an upstream source for your fork.
-5. Create a new folder within this folder that uses the naming format "PT-<2 char language ISO code>-<2 char country ISO code>".
+5. Create a new folder within this folder that uses the naming format "<2 char language ISO code>-<2 char country ISO code>".
 
 - You can find the two character language ISO code on this wikipedia page under the 'Set 1' column: https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes
 - You can find the two character country ISO code on this wikipedia page under the 'Set 1' column: https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes
 - If your language is not country specific then don't worry about adding a country code. Languages like English have variations in spelling and grammar between UK and US variants and in such cases, a country code would be useful.
 
 6. Use the en-GB file as the master file and then translate the phrases contained therein into your local language.
-7. Ensure that your translated file is named according to your language and country code (use country code only if applicable).
-8. If you have any questions about the original meaning of a phrase then please post them here: https://github.com/bigtreetech/PandaTouch/issues/82
-9. Once the translation is complete, commit your changes to your fork and then create a PR to this repo.
+7. Change the first level key within the yml file to reflect the language and country code that you have translated into. For example, en-GB becomes en-US in the sample file.
+8. Ensure that your translated file is named according to your language and country code (use country code only if applicable).
+9. If you have any questions about the original meaning of a phrase then please post them here: https://github.com/bigtreetech/PandaTouch/issues/82
+10. Once the translation is complete, commit your changes to your fork and then create a PR to this repo.
 
 If you struggle to use the git forking workflow but would still like to contribute a translation then please feel free to attach your translation to a comment in this thread: https://github.com/bigtreetech/PandaTouch/issues/82
 
