@@ -449,7 +449,7 @@ de-DE:
   tip_account_sync_ok: 'Drucker wurden erfolgreich in den Cloud-Modus umgewandelt. Sie können den aktuellen Modusstatus jedes Druckers auf der Mehrgeräte-Seite einsehen.'
   tip_account_sync_error: 'Einige Drucker konnten nicht in den Cloud-Modus umgewandelt werden. Bitte überprüfen Sie Ihre WLAN- und Cloud-Moduseinstellungen und versuchen Sie es erneut.'
   tip_account_sync_zero: 'Es gibt keine Cloud-Drucker im aktuellen Konto. Bitte fügen Sie einen Drucker zu diesem Konto hinzu und loggen Sie sich dann erneut ein.'
-   tip_printer_without_cloud: 'Dieser Drucker wurde noch nicht mit diesem Konto verknüpft. Bitte verwenden Sie BambuLab Studio oder Handy, um den Drucker hinzuzufügen, bevor Sie die Cloud aktivieren.'
+  tip_printer_without_cloud: 'Dieser Drucker wurde noch nicht mit diesem Konto verknüpft. Bitte verwenden Sie BambuLab Studio oder Handy, um den Drucker hinzuzufügen, bevor Sie die Cloud aktivieren.'
   tip_printer_login_account: 'Bitte loggen Sie sich zuerst in ein Konto ein.'
   tip_account_error: 'Ihr Konto hat Probleme. Bitte überprüfen Sie, ob Änderungen an Ihrem Kontonamen oder Passwort vorgenommen wurden. Verifizieren Sie auch, dass Ihre Kontoregion mit Ihrem aktuellen Standort übereinstimmt.'
   tip_account_network_error: 'Ihre Netzwerkverbindung hat Probleme. Bitte überprüfen Sie, ob das Netzwerkpasswort geändert wurde, und versuchen Sie, sich erneut zu verbinden, um die Cloud-Verbindung des Druckers wiederherzustellen.'
