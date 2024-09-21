@@ -34,9 +34,9 @@ de-DE:
   btn_factory: 'Werkseinstellungen zurücksetzen'
   btn_close: 'Schließen'
   btn_ignore_all: 'Alle ignorieren'
-  btn_load: 'Laden' 
-  btn_unload: 'Entladen' 
-  btn_retry: 'Wiederholen' 
+  btn_load: 'Laden' 
+  btn_unload: 'Entladen' 
+  btn_retry: 'Wiederholen' 
   btn_abort: 'Abbrechen'
   btn_print: 'Drucken'
   btn_remove: 'Entfernen'
@@ -63,7 +63,7 @@ de-DE:
   set_net_wifi_scaned: 'Gescannte Wi-Fi-Netzwerke'
   welcome_tip: 'Bitte verbinden Sie sich mit dem Internet, indem Sie das gewünschte Wi-Fi-Netzwerk rechts auswählen und dann das Passwort eingeben. Klicken Sie auf "Aktualisieren", wenn Sie das gewünschte Netzwerk nicht sehen. Klicken Sie auf "Weiter", sobald Sie mit dem gewünschten Netzwerk verbunden sind.'
   tip_scan_qrcode: 'Bitte verwenden Sie Ihr Telefon, um den QR-Code zu scannen, um auf das Online-Handbuch zuzugreifen.'
-  loading: 'Lädt...'  
+  loading: 'Lädt...'  
   top_wifi_connect: 'Verbinde mit Wi-Fi %s'
   top_wifi_connect_fail: 'Verbindung zu Wi-Fi fehlgeschlagen: %s'
   top_wifi_disconnected: 'Verbindung zu Wi-Fi getrennt: %s'
@@ -74,7 +74,7 @@ de-DE:
 #PRINT
   panda_touch: 'Panda Touch'
   printer_model: 'Modell:'
-  printer_name: 'Name:'   
+  printer_name: 'Name:'   
   scan_print_t_acescd: 'Zugangscode:'
   scan_print_t_ip: 'Drucker-IP:'
   filament_t_color: 'Filamentfarbe:'
@@ -84,7 +84,7 @@ de-DE:
   wifi_c_wait_cancel: 'Warte auf Abbruch...'
   print_bed_leveling: 'Bettnivellierung'
   print_flow_calibration: 'Durchfluss-Kalibrierung'
-  print_timelapse: 'Zeitraffer' 
+  print_timelapse: 'Zeitraffer' 
   prints_in_sync: 'Synchronisierte Drucker: %d'
   start_print_confirm: |
    Bevor Sie den Druck starten, beachten Sie bitte Folgendes:
@@ -178,7 +178,7 @@ de-DE:
   notify_remind_go_print: 'Zum Drucker gehen'
   notify_unknow_state: 'Unbekannter Statuscode für Panda Touch.'
   
-  00x0300100000020001: 'Die Resonanzfrequenz der %s-Achse ist niedrig. Der Zahnriemen könnte locker sein.' 
+  00x0300100000020001: 'Die Resonanzfrequenz der %s-Achse ist niedrig. Der Zahnriemen könnte locker sein.' 
   00x0300100000020002: 'Die mechanische Resonanzmode 1. Ordnung der %s-Achse unterscheidet sich stark von der letzten Kalibrierung. Bitte führen Sie die Maschinenkalibrierung später erneut aus.'
   00x03000F0000010001: 'Die Beschleunigungsmesserdaten sind nicht verfügbar.'
   00x03000D000001000B: 'Der Z-Achsen-Motor scheint beim Aufwärtsbewegen hängen geblieben zu sein.'
