@@ -8,7 +8,6 @@ de-DE:
   sleep_time_t_15: '15 Minuten'
   sleep_time_t_60: '60 Minuten'
   sleep_time_t_always: 'Immer aktiv'
-  
   setting_gen_t: 'Allgemein'
   setting_net_t: 'Netzwerk'
   setting_gen_t_dev: 'Gerät:'
