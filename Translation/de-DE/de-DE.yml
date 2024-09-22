@@ -2,7 +2,6 @@ de-DE:
 #SETTING PAGE
   lang_name_t: 'Deutsch'
 
-
   sleep_time_t_2: '2 Minuten'
   sleep_time_t_5: '5 Minuten'
   sleep_time_t_10: '10 Minuten'
@@ -214,6 +213,7 @@ de-DE:
   00x0300180000010001: 'Der Wert des Extrusionskraftsensors ist niedrig, die Düse scheint nicht installiert zu sein.'
   00x0300180000010002: 'Die Empfindlichkeit des Extrusionskraftsensors ist niedrig, der Hotend könnte nicht richtig installiert sein.'
   00x0300180000010003: 'Der Extrusionskraftsensor ist nicht verfügbar, die Verbindung zwischen MC und TH könnte unterbrochen sein oder der Sensor ist defekt.'
+
   00x0300180000010004: 'Die Daten vom Extrusionskraftsensor sind abnormal, der Sensor könnte defekt sein.'
   00x03001A0000020001: 'Die Düse ist mit dem Filament umwickelt oder die Druckplatte ist falsch platziert.'
   00x03001A0000020002: 'Der Extrusionskraftsensor erkennt, dass die Düse verstopft ist.'
@@ -224,6 +224,7 @@ de-DE:
   00x0C00010000010005: 'Die OTP-Parameter des Micro Lidar sind abnormal.'
   00x0C00010000020006: 'Die extrinsischen Parameter des Micro Lidar sind abnormal.'
   00x0C00010000020007: 'Die Laserparameter des Micro Lidar sind abgedriftet.'
+
   00x0C00010000020008: 'Die Kameras im Druckraum sind offline.'
   00x0C00010000010009: 'Die Kamera im Druckraum ist schmutzig.'
   00x0C0001000001000A: 'Die Micro Lidar-LED könnte defekt sein.'
@@ -234,6 +235,7 @@ de-DE:
   00x0C00020000020004: 'Die Düsenhöhe scheint zu niedrig zu sein.'
   00x0C00020000010005: 'Ein neuer Micro Lidar wurde erkannt.'
   00x0C00020000020006: 'Die Düsenhöhe scheint zu hoch zu sein.'
+
   00x0C00030000020001: 'Die Messung der Filamentbelichtung ist fehlgeschlagen.'
   00x0C00030000020002: 'Die Inspektion der ersten Schicht wurde aufgrund abnormaler Lidar-Daten abgebrochen.'
   00x0C00030000020004: 'Die Inspektion der ersten Schicht wird für den aktuellen Druckauftrag nicht unterstützt.'
@@ -244,6 +246,7 @@ de-DE:
   00x0C00030000010009: 'Modul zur Inspektion der ersten Schicht wurde neu gestartet.'
   00x0C0003000003000B: 'Inspektion der ersten Schicht läuft.'
   00x0C0003000002000C: 'Marker auf der Druckplatte nicht erkannt.'
+
   00x0500010000020001: 'Die Medienpipeline funktioniert nicht richtig.'
   00x0500010000020002: 'USB-Kamera ist nicht verbunden.'
   00x0500010000020003: 'USB-Kamera funktioniert nicht richtig.'
@@ -255,6 +258,7 @@ de-DE:
   00x0500020000020002: 'Anmeldung am Gerät fehlgeschlagen.'
   00x0500020000020004: 'Nicht autorisierter Benutzer.'
   00x0500020000020006: 'Liveview-Dienst funktioniert nicht richtig.'
+
   00x0500030000010001: 'Das MC-Modul funktioniert nicht richtig. Bitte starten Sie das Gerät neu.'
   00x0500030000010002: 'Das Werkzeugkopf-Modul funktioniert nicht richtig. Bitte starten Sie das Gerät neu.'
   00x0500030000010003: 'Das AMS-Modul funktioniert nicht richtig. Bitte starten Sie das Gerät neu.'
@@ -276,6 +280,7 @@ de-DE:
   00x0700100000010003: 'Die Drehmomentregelung des AMS%s Slot%s Motors funktioniert nicht richtig. Der Stromsensor könnte defekt sein.'
   00x0700100000020002: 'Der AMS%s Slot%s Motor ist überlastet. Das Filament könnte verheddert oder blockiert sein.'
   00x0700200000020001: 'AMS%s Slot%s Filament ist ausgegangen.'
+
   00x1200200000020001: 'AMS%s Slot%s Filament ist ausgegangen.'
   00x0700200000020002: 'Der AMS%s Slot%s ist leer.'
   00x0700200000020003: 'Das Filament im AMS%s Slot%s könnte im AMS defekt sein.'
@@ -287,6 +292,7 @@ de-DE:
   00x0700400000020002: 'Fehler im Positionssignal des Filamentpuffers; der Positionssensor könnte defekt sein.'
   00x0700400000020003: 'Die Kommunikation des AMS-Hubs ist abnormal; das Kabel könnte nicht richtig verbunden sein.'
   00x0700400000020004: 'Das Signal des Filamentpuffers ist abnormal; die Feder könnte feststecken oder das Filament könnte verheddert sein.'
+
   00x0700450000020001: 'Der Sensor des Filamentcutters funktioniert nicht richtig. Der Sensor könnte getrennt oder beschädigt sein.'
   00x0700450000020002: 'Der Schneideabstand des Filamentcutters ist zu groß. Der XY-Motor könnte Schritte verloren haben.'
   00x0700450000020003: 'Der Griff des Filamentcutters hat sich nicht gelöst. Der Griff oder die Klinge könnte feststecken.'
@@ -333,6 +339,7 @@ de-DE:
   tpu_not_supported: '"%s %s" wird vom AMS nicht unterstützt.'
   cf_gf_warning: '"%s %s" Filamente sind hart und spröde. Sie brechen leicht oder stecken im AMS fest; bitte mit Vorsicht verwenden.'
   pva_warning: 'Feuchtes "%s %s" wird flexibel und könnte im AMS stecken bleiben; bitte vorher trocknen.'
+
 #CONTROL END
 
 #MQTT
