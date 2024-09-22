@@ -18,7 +18,14 @@ If you would like to help by translating the Panda Touch UI into your native lan
 7. Change the first level key within the yml file to reflect the language and country code that you have translated into. For example, en-GB becomes en-US in the sample file.
 8. Ensure that your translated file is named according to your language and country code (use country code only if applicable).
 9. If you have any questions about the original meaning of a phrase then please post them here: https://github.com/bigtreetech/PandaTouch/issues/82
-10. Once the translation is complete, commit your changes to your fork and then create a PR to this repo.
+10. To ensure that the translated YAML files meet the standards of the Panda Touch and do not contain formatting, key or value errors we parse them using a github actions workflow once the pull request is initiated. Solving issues at this point can be tedious since the script identifies issues line by line and you would need to fix a line, update the PR with a new commit, run the test again and see if there are any more errors. To expedite this process we recommend doing the following:
+  a. Use  Vscode as your editor.
+  b. Ensure that you use two spaces (0x20) as your indentation characters for the YAML file. Do not use tabs or any other type of character.
+  c. Run your YAML file through an online validator such as https://yamlchecker.com/. Note that even these validators can miss the incorrect use of indentation characters so this is worth double checking in your editor.
+  d. You can also use our own YAML to IMG generator to check your file before commiting. If it fails generation then there is an issue with the file https://pandatouch.us.kg/
+11. Once the translation is complete, commit your changes to your fork and then create a PR to this repo.
+
+Once the PR is accepted, we will generate an IMG file and upload it to this repo for others to use. You can also generate your own IMG file online using https://pandatouch.us.kg/
 
 If you struggle to use the git forking workflow but would still like to contribute a translation then please feel free to attach your translation to a comment in this thread: https://github.com/bigtreetech/PandaTouch/issues/82
 
