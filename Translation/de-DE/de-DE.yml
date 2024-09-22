@@ -15,7 +15,7 @@ de-DE:
   setting_gen_t_man: 'Hersteller:'
   setting_gen_t_lang: 'Sprache:'
   setting_gen_t_fw: 'Firmware:'
-  setting_gen_t_slp: 'Automatischer Schlaf:'
+  setting_gen_t_slp: 'Ruhezustand:'
   setting_gen_t_backlight: 'Hintergrundbeleuchtung Helligkeit:'
   setting_gen_t_reb: 'Neustart'
   setting_gen_t_rst: 'Werkseinstellungen zurücksetzen'
@@ -88,20 +88,20 @@ de-DE:
   prints_in_sync: 'Synchronisierte Drucker: %d'
   start_print_confirm: |
    Bevor Sie den Druck starten, beachten Sie bitte Folgendes:
-   1. Stellen Sie sicher, dass die Datei für den ausgewählten Drucker(s) geschnitten wurde.
-   2. Stellen Sie sicher, dass die Filamenteinstellungen in der geschnittenen Datei mit dem in die AMS-Slots geladenen Filament übereinstimmen.
+   1. Stellen Sie sicher, dass die Datei für den/die ausgewählten Drucker gesliced wurde.
+   2. Stellen Sie sicher, dass die Filamenteinstellungen in der geslicten Datei mit den in den AMS-Slots geladenen Filamenten übereinstimmen.
   print_using_ams: 'AMS verwenden'
   print_ams: 'Spulenhalter'
   print_canceled: 'Abgebrochen'
-  print_finished: 'Beendet'
-  print_reprint: 'Wiederholen'
+  print_finished: 'Fertig'
+  print_reprint: 'Erneut drucken'
   bed_preheating: 'Heizbett-Vorwärmung'
   nozzle_clean: 'Düsenspitze reinigen'
   bed_auto_leveing: 'Automatische Bettnivellierung'
   print_preparing: 'Bereite Druck vor'
   print_t: 'Drucker'
   print_not_find: 'Keine Drucker gefunden, überprüfen Sie Ihr Netzwerk und scannen Sie erneut'
-  filament_unknown: 'Filamenttyp ist unbekannt, aber er ist erforderlich, um diese Aktion auszuführen. Möchten Sie die Informationen des Filaments bearbeiten?'
+  filament_unknown: 'Filamenttyp ist unbekannt, aber ist erforderlich, um diese Aktion auszuführen. Möchten Sie die Informationen des Filaments bearbeiten?'
   printer_add_repeat: 'Dieser Drucker wurde bereits zum Panda Touch hinzugefügt und kann nicht erneut hinzugefügt werden.'
   printer_has_add: 'Bereits hinzugefügt'
   printer_busy: |
@@ -123,15 +123,15 @@ de-DE:
   tip_input_acescd: '(Erforderlich) Geben Sie Ihren Zugangscode ein'
   tip_input_sn: '(Erforderlich) Geben Sie Ihre Seriennummer ein'
   pop_tip_add_dev: 'Bitte bestätigen Sie, dass Sie diese Druckerverbindung zum Panda Touch hinzufügen möchten.'
-  pop_tip_restart: 'Bitte bestätigen Sie, dass Sie den Panda Touch neu starten möchten.'
+  pop_tip_restart: 'Bitte bestätigen Sie, dass Sie das Panda Touch neu starten möchten.'
   pop_tip_input_password: 'Geben Sie das Passwort ein'
   pop_tip_factory: 'Bitte bestätigen Sie, dass Sie die Werkseinstellungen wiederherstellen möchten. Der Panda Touch wird die Wi-Fi-Einstellungen und alle hinzugefügten Drucker vergessen. Nach Abschluss wird ein Neustart durchgeführt.'
   new_tip_get_info: 'So erhalten Sie IP-Adresse, Zugangscode und Seriennummer.'
   pop_tip_print_abort: 'Bitte bestätigen Sie, ob Sie den aktuellen und nachfolgende Upload- und Druckaufgaben abbrechen möchten.'
-  tip_not_insert_sdcard: 'MicroSD-Karte nicht in den Drucker eingelegt.'
-  tip_not_insert_usb_flash: 'USB-Flash-Laufwerk nicht eingesteckt.'
+  tip_not_insert_sdcard: 'MicroSD-Karte ist nicht in den Drucker eingelegt.'
+  tip_not_insert_usb_flash: 'USB-Flash-Laufwerk ist nicht eingesteckt.'
   tip_not_select_print: 'Kein Drucker ausgewählt, bitte wählen Sie mindestens einen Drucker aus, um zu drucken.'
-  tip_remove_refuse: 'Nur "Getrennt" Drucker können gelöscht werden. Bitte setzen Sie diesen Drucker auf "Getrennt", bevor Sie ihn löschen.'
+  tip_remove_refuse: 'Nur "Getrennte" Drucker können gelöscht werden. Bitte setzen Sie diesen Drucker auf "Getrennt", bevor Sie ihn löschen.'
   tip_remove_confirm: 'Bitte bestätigen Sie, dass Sie diesen Drucker vom Panda Touch entfernen möchten.'
   tip_master_must: 'Es muss mindestens ein Drucker als "Master" eingestellt sein.'
   tip_mainly_query: 'Nur ein Drucker kann als "Master" eingestellt werden. Möchten Sie diesen Drucker als "Master" einstellen und den alten "Master"-Drucker auf "Synchronisieren" setzen?'
@@ -146,8 +146,8 @@ de-DE:
    4. Im Cloud-Modus überprüfen und bearbeiten Sie bitte die "IP" oder den "Zugangscode".
   tip_wifi_disconnected: 'Die Wi-Fi-Verbindung wurde getrennt. Bitte stellen Sie sicher, dass Sie sich in einem Bereich mit ausreichender Signalstärke befinden.'
   tip_wifi_error: 'Verbindung zum aktuellen Wi-Fi fehlgeschlagen. Bitte überprüfen Sie die Signalstärke und das eingegebene Passwort und verbinden Sie sich dann erneut.'
-  tip_unload_has_filament: 'Bitte ziehen Sie das Filament auf dem Spulenhalter aus dem Extruder oder überprüfen Sie, ob Filament im Extruder gebrochen ist. Wenn AMS später verwendet werden soll, schließen Sie bitte das PTFE-Rohr an den Kuppler an.'
-  tip_unload_has_filament_l: 'Bitte ziehen Sie das Filament auf dem Spulenhalter aus dem Extruder oder überprüfen Sie, ob Filament im Extruder gebrochen ist. Wenn AMS später verwendet werden soll, schließen Sie bitte das PTFE-Rohr an den Kuppler an und klicken Sie auf die Schaltfläche "Wiederholen".'
+  tip_unload_has_filament: 'Bitte ziehen Sie das Filament auf dem Spulenhalter aus dem Extruder oder überprüfen Sie, ob Filament im Extruder gebrochen ist. Wenn das AMS später verwendet werden soll, schließen Sie bitte das PTFE-Rohr an den Kuppler an.'
+  tip_unload_has_filament_l: 'Bitte ziehen Sie das Filament auf dem Spulenhalter aus dem Extruder oder überprüfen Sie, ob Filament im Extruder gebrochen ist. Wenn das AMS später verwendet werden soll, schließen Sie bitte das PTFE-Rohr an den Kuppler an und klicken Sie auf die Schaltfläche "Wiederholen".'
   tip_load_no_filament: 'Bitte füttern Sie vom Spulenhalter, bis der Filament-Sensor des Werkzeugs aktiviert wird.'
   tip_load_no_filament_l: 'Bitte füttern Sie vom Spulenhalter, bis der Filament-Sensor des Werkzeugs aktiviert wird, und klicken Sie auf die Schaltfläche "Wiederholen".'
   tip_load_filament: 'Bitte beobachten Sie die Düse. Wenn das Filament extrudiert wurde, klicken Sie auf "Fertig"; wenn nicht, schieben Sie das Filament leicht vor und klicken Sie dann auf "Wiederholen".'
@@ -176,7 +176,7 @@ de-DE:
   notify_cnt_t: 'Anzahl der Benachrichtigungen:'
   notify_remind: 'Bitte scannen Sie den Code, um mögliche Lösungen anzuzeigen, oder klicken Sie auf die Schaltfläche "Zum Drucker gehen", um diesen Drucker als "Master"-Drucker einzustellen.'
   notify_remind_go_print: 'Zum Drucker gehen'
-  notify_unknow_state: 'Unbekannter Statuscode für Panda Touch.'
+  notify_unknow_state: 'Unbekannter Statuscode für das Panda Touch.'
   
   00x0300100000020001: 'Die Resonanzfrequenz der %s-Achse ist niedrig. Der Zahnriemen könnte locker sein.' 
   00x0300100000020002: 'Die mechanische Resonanzmode 1. Ordnung der %s-Achse unterscheidet sich stark von der letzten Kalibrierung. Bitte führen Sie die Maschinenkalibrierung später erneut aus.'
@@ -351,7 +351,7 @@ de-DE:
 
 #MQTT
   ctl_t_mqtt_ctl_mode: 'Steuermodus'
-  ctl_t_mqtt_statu_master: 'Leiter'
+  ctl_t_mqtt_statu_master: 'Master'
   ctl_t_mqtt_statu_slave: 'Nachfolger'
   ctl_t_mqtt_status_sync: 'Synchronisieren'
   ctl_t_mqtt_disconected: 'Getrennt'
