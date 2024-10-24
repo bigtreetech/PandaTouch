@@ -8,6 +8,7 @@ es-ES:
   sleep_time_t_15: '15min'
   sleep_time_t_60: '60min'
   sleep_time_t_always: 'Siempre Encendido'
+
   setting_gen_t: 'General'
   setting_net_t: 'Red'
   setting_gen_t_dev: 'Dispositivo:'
@@ -59,7 +60,7 @@ es-ES:
   btn_goto_login: 'Ir a la página de inicio de sesión'
 #BUTTONS END
 
-  set_net_wifi_scaned: 'Scanned WiFi'
+  set_net_wifi_scaned: 'WiFis escaneados'
   welcome_tip: 'Por favor, conéctese a Internet seleccionando la red WiFi de la derecha e introduciendo la contraseña. Pulse actualizar si no ve la red deseada. Pulse siguiente cuando se haya conectado a la red deseada.'
   tip_scan_qrcode: 'Por favor, utilice su teléfono para escaneer el código QR y acceder al manual online.'
   loading: 'Cargando...'
@@ -173,6 +174,7 @@ es-ES:
   notify_remind: 'Por favor, escanee el código para ver las posibles soluciones, o haga clic en el botón "Ir a la impresora" para establecer esta impresora como impresora "maestra"'
   notify_remind_go_print: 'Ir a la impresora'
   notify_unknow_state: 'Panda Touch código de estado desconocido.'
+
   00x0300100000020001: 'La frecuencia de resonancia del eje %s es baja. La correa dentada puede estar suelta'
   00x0300100000020002: 'El modo de resonancia mecánica de 1er orden del eje %s difiere mucho de la última calibración, por favor vuelva a ejecutar la calibración de la máquina más tarde.'
   00x03000F0000010001: 'Los datos del acelerómetro no están disponibles.'
@@ -183,6 +185,7 @@ es-ES:
   00x03000D0000010006: 'La bandeja de impresión no está bien colocada. Por favor, ajústela.'
   00x03000D0000010007: 'La bandeja de impresión no está bien colocada. Por favor, ajústela.'
   00x03000D0000010008: 'La bandeja de impresión no está bien colocada. Por favor, ajústela.'
+ 
   00x03000D0000010009: 'La bandeja de impresión no está colocada correctamente. '
   00x03000D000001000A: 'La bandeja de impresión no está colocada correctamente. Por favor, ajústela.'
   00x03000D0000020001: 'Homing anormal del cabezal.'
@@ -193,6 +196,7 @@ es-ES:
   00x03000A0000010001: 'La sensibilidad del sensor de fuerza del lecho térmico %s es demasiado alta.'
   00x0300040000020001: 'La velocidad del ventilador de refrigeración de la pieza es demasiado lenta o está parado.'
   00x0300030000020002: 'La velocidad del ventilador del hotend es lenta.'
+ 
   00x0300030000010001: 'La velocidad del ventilador del hotend es demasiado lenta o está parada.'
   00x0300060000010001: 'Motor-%s tiene un circuito abierto. Puede haber una conexión suelta o el motor puede haber fallado.'
   00x0300060000010002: 'Motor-%s tiene un cortocircuito. Es posible que haya fallado.'
@@ -203,6 +207,7 @@ es-ES:
   00x0300190000010001: 'El sensor de corriente de Foucault del eje Y no está disponible, el cable debe estar roto.'
   00x0300190000020002: 'La sensibilidad del sensor de corrientes de Foucault del eje Y es demasiado baja.'
   00x0300400000020001: 'La transmisión de datos a través del puerto serie es anormal; el sistema de software puede estar defectuoso.'
+ 
   00x0300410000010001: 'El voltaje del sistema es inestable; activando la función de protección de fallo de alimentación.'
   00x0300020000010001: 'La temperatura de la boquilla es anormal, el calentador puede estar en cortocircuito.'
   00x0300020000010002: 'La temperatura de la boquilla es anormal, el calentador puede estar en circuito abierto.'
@@ -270,6 +275,7 @@ es-ES:
   00x0500040000010003: 'El contenido del archivo de impresión es ilegible. Vuelva a enviar el trabajo de impresión.'
   00x0500040000010004: 'El archivo de impresión no está autorizado.'
   00x0500040000010006: 'Error al reanudar la impresión anterior.'
+ 
   00x0500040000020007: 'La temperatura de la cama supera la temperatura de vitrificación del filamento, lo que puede provocar un atasco de la boquilla...'
   00x0700010000010001: 'El motor de asistencia de la AMS%s ha patinado, la rueda de extrusión puede estar desgastada o el filamento puede ser demasiado fino.'
   00x0700010000010003: 'El control de par del motor de asistencia AMS%s está funcionando mal.El sensor de corriente puede estar defectuoso.'
@@ -373,10 +379,13 @@ es-ES:
   mqtt_slave: |
     ¡No se puede conectar a la impresora! 
     Asegúrese de que la impresora está encendida y en la misma LAN que el Panda Touch o haz clic en "Editar" para comprobar y volver a editar la "IP" y el "SN". 
-    Esta impresora no es la "Maestra", por lo que no será accesible ni podrá seguir a la "Maestra" si está en un grupo. Si ha apagado la impresora, ignore este mensaje. Para solucionar problemas de conexión, escanee el código QR. 
+    Esta impresora no es la "Maestra", por lo que no será accesible ni podrá seguir a la "Maestra" si está en un grupo. 
+    Si ha apagado la impresora, ignore este mensaje. 
+    Para solucionar problemas de conexión, escanee el código QR. 
   mqtt_not_online: |
     ¡No se puede conectar a la impresora!
-    Asegúrese de que la impresora está encendida y en la misma red LAN que Panda Touch Para solucionar problemas de conexión, escanee el código QR.
+    Asegúrese de que la impresora está encendida y en la misma red LAN que Panda Touch.
+    Para solucionar problemas de conexión, escanee el código QR.
 #MQTT END
 
 #FILE
@@ -397,12 +406,13 @@ es-ES:
   guid_t_get_ip_access: 'Obtener IP y código de acceso'
   guid_c_get_ip_access_wlan: 'Seleccione WLAN utilizando el teclado D, pulse OK para entrar.'
   guid_c_get_ip_access_enter: 'Enter the IP and Access codes into the corresponding Panda Touch input boxes.'
-  guid_t_get_sn: 'Get SN Code'
+  guid_t_get_sn: 'Ver Código SN'
   guid_c_get_sn_return: 'Pulse volver a la configuración.'
   guid_c_get_sn_enter: 'Seleccione el dispositivo utilizando el teclado D, pulse OK para entrar.'
   guid_c_get_sn_enter_code: 'Este es el código SN, introdúzcalo en el cuadro de entrada correspondiente en Panda Touch.'
   guid_t_completed: |
-    ; ) ¡Enhorabuena! Ha completado el tutorial de Panda Touch. Pruebe las funciones. 
+    ; ) 
+    ¡Enhorabuena! Ha completado el tutorial de Panda Touch. Pruebe las funciones. 
   guid_c_completed: 'Haga clic en el área en blanco de la pantalla para volver a la interfaz de conexión. Puede añadir información de la impresora para realizar un seguimiento del estado.'
   sn: 'SN:'
   guid_unable_find: '¿No se puede encontrar la configuración de la impresora?'
@@ -462,7 +472,8 @@ es-ES:
   tip_printer_group_max: 'Panda Touch actualmente sólo soporta %d grupo de impresoras.'
   tip_one_master_at_least: 'Debería mantener al menos una impresora maestra en un grupo.'
   tip_one_select_at_least: |
-    Por favor, mantenga una impresora maestra en un grupo. si quiere eliminar el grupo, puede pulsar el botón atrás y eliminarlo mediante el botón eliminar. 
+    Por favor, mantenga una impresora maestra en un grupo. 
+    Si quiere eliminar el grupo, puede pulsar el botón atrás y eliminarlo mediante el botón eliminar. 
   tip_remove_group_confirm: 'Por favor, confirme que quiere eliminar este grupo de impresoras del Panda Touch.'
   tip_group_same_name: 'Existe el mismo grupo, por favor renómbralo.'
   tip_printer_in_group: 'La impresora ha sido seleccionada en el grupo, por favor elimínela del grupo.'
@@ -486,11 +497,13 @@ es-ES:
   tip_move_confirm: 'La impresora/grupo de impresoras está imprimiendo actualmente y no se puede mover.'
   tip_always_sleep: 'Esta operación dañará la pantalla. ¿Desea continuar?'
   tip_bind_power: |
-    Por favor, mantenga pulsado el botón Panda PWR hasta que la luz azul empiece a parpadear, después coloque el Panda Touch contra la carcasa del Panda PWR para conectarlo. 
+    Por favor, mantenga pulsado el botón Panda PWR hasta que la luz azul empiece a parpadear, 
+    después coloque el Panda Touch contra la carcasa del Panda PWR para conectarlo. 
   tip_remove_keep_one: 'Por favor, mantenga al menos una impresora.'
   tip_remove_printer_with_power: 'Esta impresora está vinculada al Panda PWR. ¿Desea seguir borrándola?'
   tip_about_power: |
-    Panda PWR Apagado automático, monitorización de energía en tiempo real, seguimiento de energía, diseño de doble interfaz USB-A, por favor escanee el código QR para más información.
+    Panda PWR 
+    Apagado automático, monitorización de energía en tiempo real, seguimiento de energía, diseño de doble interfaz USB-A, por favor escanee el código QR para más información.
   tip_power_off_not_online_confirm: 'La impresora ha sido desconectada, por favor confirme si desea apagar la impresora'
   tip_power_off_temp_too_high_confirm: 'La temperatura del hotend es mayor de 50C. Apagar la impresora puede causar un bloqueo. Por favor, espere a que el hotend se enfríe antes de apagar la impresora. ¿Quiere continuar?'
   tip_power_off_confirm: 'Por favor confirme si quiere apagar la impresora'
