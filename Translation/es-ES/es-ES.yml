@@ -2,12 +2,15 @@ es-ES:
 #SETTING PAGE
   lang_name_t: 'Español'
 
-  sleep_time_t_2: '2min'
-  sleep_time_t_5: '5min'
-  sleep_time_t_10: '10min'
-  sleep_time_t_15: '15min'
-  sleep_time_t_60: '60min'
-  sleep_time_t_always: 'Siempre Encendido'
+  min_time_t_1: '1min'
+  min_time_t_2: '2min'
+  min_time_t_3: '3min'
+  min_time_t_5: '5min'
+  min_time_t_10: '10min'
+  min_time_t_15: '15min'
+  min_time_t_60: '60min' 
+  sleep_time_t_always: 'Always On'
+  
   setting_gen_t: 'General'
   setting_net_t: 'Red'
   setting_gen_t_dev: 'Dispositivo:'
@@ -57,6 +60,9 @@ es-ES:
   btn_goto_wifi: 'Ir a la red Wi-Fi'
   btn_ignore: 'Ignorar'
   btn_goto_login: 'Ir a la página de inicio de sesión'
+  btn_dry: 'Drying'
+  btn_dry_prepare: 'Prepare'
+  btn_dry_start: 'Start'
 #BUTTONS END
 
   set_net_wifi_scaned: 'Scanned WiFi'
@@ -92,7 +98,7 @@ es-ES:
   print_ams: 'Portabobinas'
   print_canceled: 'Cancelado'
   print_finished: 'Finalizado'
-  print_reprint: 'Reimprimir'
+  print_reprint: 'ristampa'
   bed_preheating: 'Precalentamiento de la cama caliente'
   nozzle_clean: 'Limpieza de la punta de la boquilla'
   bed_auto_leveing: 'Nivelación automática de la cama'
@@ -307,7 +313,7 @@ es-ES:
 
   00x12FF200000020007: 'Fallo al comprobar la ubicación del filamento en el cabezal, por favor haga clic para obtener más ayuda.'
   00x1200200000020006: 'Fallo al extruir filamento AMS%s Slot%s, el extrusor puede estar obstruido, o el filamento puede ser demasiado fino, causando el deslizamiento en el extrusor.'
-
+  00x1200200000030002: 'AMS%s Slot%s filament has run out and automatically switched to the slot with the same filament.'
 #NOTIFY END
 
 #CONTROL
@@ -462,7 +468,8 @@ es-ES:
   tip_printer_group_max: 'Panda Touch actualmente sólo soporta %d grupo de impresoras.'
   tip_one_master_at_least: 'Debería mantener al menos una impresora maestra en un grupo.'
   tip_one_select_at_least: |
-    Por favor, mantenga una impresora maestra en un grupo. si quiere eliminar el grupo, puede pulsar el botón atrás y eliminarlo mediante el botón eliminar. 
+    Por favor, mantenga una impresora maestra en un grupo. 
+    si quiere eliminar el grupo, puede pulsar el botón atrás y eliminarlo mediante el botón eliminar. 
   tip_remove_group_confirm: 'Por favor, confirme que quiere eliminar este grupo de impresoras del Panda Touch.'
   tip_group_same_name: 'Existe el mismo grupo, por favor renómbralo.'
   tip_printer_in_group: 'La impresora ha sido seleccionada en el grupo, por favor elimínela del grupo.'
@@ -516,8 +523,8 @@ es-ES:
   tip_confirm_bind_power: '¿Acepta la vinculación de Panda PWR?'
   tip_confirm_unbind_power: '¿Desea desvincularse de Panda PWR?'
   t_reset_power_usage: |
-    Reiniciar 
-       Consumo
+      Reiniciar 
+      Consumo
   t_reset_power_usage_print: 'Reiniciar Consumo'
   tip_confirm_reset_power_usage: '¿Quiere reiniciar el consumo de energía?'
   t_auto_off: 'Apagado automático'
@@ -525,5 +532,18 @@ es-ES:
   t_pwr_has_been_bind: 'Este PWR ha sido vinculado por la Impresora %s ,Por favor, desvincúlelo antes de continuar.'
   tip_pwr_max: 'Panda Touch soporta actualmente la conexión de hasta %d PWR Panda.'
   t_power_off_after_printing: 'Apagado automático'
-
+  tip_change_reboot: 'Per una migliore esperienza di velocità, richiede un riavvio per avere effetto, continuare?'
+  t_multi_print_heat_delay: 'Ritardo termico per la stampa multipla'
+  t_file_t_history: 'Storia della stampa'
+  t_history_cost_time: 'Tempo di costo'
+  t_history_weight: 'Peso'
+  t_history_only_cloud: 'Supporto solo per la modalità Cloud'
+  t_history_not_find: 'Non trovato'
+  t_default_directory: 'Ftps-Default-Directory' 
+  t_reboot_take_effect: 'Need reboot to take effect,Do you want to continue?' 
+  t_send_code: 'Send Code' 
+  tip_send_code: 'Input the code' 
+  tip_error_code_length: 'The length of code should be 6' 
+  tip_error_code: 'Code does not exist or has expired; please request a new verification code.' 
+  tip_error_send_code: 'Send code failed please check the internet.' 
 #NEW ADD END

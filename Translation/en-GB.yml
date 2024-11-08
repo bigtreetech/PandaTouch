@@ -2,11 +2,13 @@ en-GB:
 #SETTING PAGE
   lang_name_t: 'English'
 
-  sleep_time_t_2: '2min'
-  sleep_time_t_5: '5min'
-  sleep_time_t_10: '10min'
-  sleep_time_t_15: '15min'
-  sleep_time_t_60: '60min'
+  min_time_t_1: '1min'
+  min_time_t_2: '2min'
+  min_time_t_3: '3min'
+  min_time_t_5: '5min'
+  min_time_t_10: '10min'
+  min_time_t_15: '15min'
+  min_time_t_60: '60min' 
   sleep_time_t_always: 'Always On'
   
   setting_gen_t: 'General'
@@ -58,6 +60,9 @@ en-GB:
   btn_goto_wifi: 'Go to Wi-Fi network'
   btn_ignore: 'Ignore'
   btn_goto_login: 'Go to Login page'
+  btn_dry: 'dry'
+  btn_dry_prepare: 'Preparare'
+  btn_dry_start: 'Start dry'
 #BUTTONS END
 
   set_net_wifi_scaned: 'Scanned WiFi'
@@ -313,7 +318,7 @@ en-GB:
 
   00x12FF200000020007: 'Failed to check the filament location in the tool head, please click for more help.'
   00x1200200000020006: 'Failed to extrude AMS%s Slot%s filament, the extruder may be clogged, or the filament may be too thin, causing the extruder slipping.'
-
+  00x1200200000030002: 'AMS%s Slot%s filament has run out and automatically switched to the slot with the same filament.'
 #NOTIFY END
 
 #CONTROL
@@ -450,7 +455,7 @@ en-GB:
   tip_account_sync_zero: 'There are no cloud printers in the current account. Please add a printer to this account and then login again.'
   tip_printer_without_cloud: 'This printer has not been bound to this account yet. Please use BambuLab Studio or Handy to add the printer before enable the cloud.'
   tip_printer_login_account: 'Please log in to an account first.'
-  tip_account_error: 'Your account is experiencing issues. Please check if there have been any changes to your account name or password. Also, verify that your account region matches your current location.'
+  tip_account_error: 'Your account is experiencing issues. Please check if there have been any changes to your account name. Also, verify that your account region matches your current location.'
   tip_account_network_error: 'Your network connection is experiencing issues. Please check if the network password has been changed and try reconnecting to restore the printer''s cloud connection.'
   t_login_bambu: 'Login BambuLab Account'
   tip_convert_to_cloud: 'Converting printers to cloud mode. Please wait.'
@@ -461,7 +466,7 @@ en-GB:
   tip_ftp_ip_invalid: |
    Please ensure that the printer is on the same LAN as the Panda Touch.
    Please check and re-edit the "IP" or "Access code".
-  tip_ftp_not_find: 'File not found in root directory.'
+  tip_ftp_not_find: 'File not found.'
   tip_group_printer_cloud_mode: 'Printer %d: %s is working in cloud mode.' 
   tip_group_printer_local_mode: 'Printer %d: %s is working in LAN mode.' 
   tip_group_work_in_cloud: 'The printer group works in cloud mode.'
@@ -530,7 +535,7 @@ en-GB:
   tip_confirm_unbind_power: 'Do you want to unbind from Panda PWR?' 
   t_reset_power_usage: | 
    RST
-    Usage 
+   Usage 
   t_reset_power_usage_print: 'RST Usage' 
   tip_confirm_reset_power_usage: 'Do you want to reset the power usage?' 
   t_auto_off: 'Auto Off'
@@ -538,5 +543,18 @@ en-GB:
   t_pwr_has_been_bind: 'This PWR has been bound by Printer %s ,Please unbind it before proceeding.'
   tip_pwr_max: 'Panda Touch currently supports connecting up to %d Panda PWR.'
   t_power_off_after_printing: 'Auto Power-off'
-  
+  tip_change_reboot: 'For a better speed experience, requires a reboot to take effect, continue?'
+  t_multi_print_heat_delay: 'Multi printing heat delay'
+  t_file_t_history: 'Print history'
+  t_history_cost_time: 'Cost time'
+  t_history_weight: 'Weight'
+  t_history_only_cloud: 'Only support for Cloud mode'
+  t_history_not_find: 'Not find'
+  t_default_directory: 'Ftps-Default-Directory' 
+  t_reboot_take_effect: 'Need reboot to take effect,Do you want to continue?' 
+  t_send_code: 'Send Code' 
+  tip_send_code: 'Input the code' 
+  tip_error_code_length: 'The length of code should be 6' 
+  tip_error_code: 'Code does not exist or has expired; please request a new verification code.' 
+  tip_error_send_code: 'Send code failed please check the internet.' 
 #NEW ADD END
