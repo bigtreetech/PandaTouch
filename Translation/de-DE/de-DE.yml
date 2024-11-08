@@ -2,11 +2,13 @@ de-DE:
 #SETTING PAGE
   lang_name_t: 'Deutsch'
 
-  sleep_time_t_2: '2 Minuten'
-  sleep_time_t_5: '5 Minuten'
-  sleep_time_t_10: '10 Minuten'
-  sleep_time_t_15: '15 Minuten'
-  sleep_time_t_60: '60 Minuten'
+  min_time_t_1: '1 Minuten'
+  min_time_t_2: '2 Minuten'
+  min_time_t_3: '3 Minuten'
+  min_time_t_5: '5 Minuten'
+  min_time_t_10: '10 Minuten'
+  min_time_t_15: '15 Minuten'
+  min_time_t_60: '60 Minuten'
   sleep_time_t_always: 'Immer aktiv'
   setting_gen_t: 'Allgemein'
   setting_net_t: 'Netzwerk'
@@ -15,9 +17,9 @@ de-DE:
   setting_gen_t_lang: 'Sprache:'
   setting_gen_t_fw: 'Firmware:'
   setting_gen_t_slp: 'Ruhezustand:'
-  setting_gen_t_backlight: 'Hintergrundbeleuchtung Helligkeit:'
+  setting_gen_t_backlight: 'Helligkeit:'
   setting_gen_t_reb: 'Neustart'
-  setting_gen_t_rst: 'Werkseinstellungen zurücksetzen'
+  setting_gen_t_rst: 'Werkseinstellungen'
 #SETTING PAGE END
 
 #BUTTONS
@@ -30,7 +32,7 @@ de-DE:
   btn_back: 'Zurück'
   btn_del: 'Löschen'
   btn_scan: 'Scannen'
-  btn_factory: 'Werkseinstellungen zurücksetzen'
+  btn_factory: 'Werkseinstellungen'
   btn_close: 'Schließen'
   btn_ignore_all: 'Alle ignorieren'
   btn_load: 'Laden'
@@ -50,16 +52,19 @@ de-DE:
   btn_edit: 'Bearbeiten'
   btn_yes: 'Ja'
   btn_no: 'Nein'
-  btn_reset: 'Zurücksetzen'
+  btn_reset: 'Reset'
   btn_add_printer: 'Drucker hinzufügen'
   btn_add_group: 'Gruppe hinzufügen'
   btn_goto_printers: 'Zur Multi-Geräte-Seite gehen'
   btn_goto_wifi: 'Zum Wi-Fi-Netzwerk gehen'
   btn_ignore: 'Ignorieren'
   btn_goto_login: 'Zur Anmeldeseite gehen'
+  btn_dry: 'Trocknen'
+  btn_dry_prepare: 'Trocknen vorbereiten'
+  btn_dry_start: 'Trocknen starten'
 #BUTTONS END
 
-  set_net_wifi_scaned: 'Gescannte Wi-Fi-Netzwerke'
+  set_net_wifi_scaned: 'Wi-Fi-Netzwerke'
   welcome_tip: 'Bitte verbinden Sie sich mit dem Internet, indem Sie das gewünschte Wi-Fi-Netzwerk rechts auswählen und dann das Passwort eingeben. Klicken Sie auf "Aktualisieren", wenn Sie das gewünschte Netzwerk nicht sehen. Klicken Sie auf "Weiter", sobald Sie mit dem gewünschten Netzwerk verbunden sind.'
   tip_scan_qrcode: 'Bitte verwenden Sie Ihr Telefon, um den QR-Code zu scannen, um auf das Online-Handbuch zuzugreifen.'
   loading: 'Lädt...'
@@ -75,8 +80,8 @@ de-DE:
   printer_name: 'Name:'
   scan_print_t_acescd: 'Zugangscode:'
   scan_print_t_ip: 'Drucker-IP:'
-  filament_t_color: 'Filamentfarbe:'
-  filament_t_matrl: 'Filamentmaterial:'
+  filament_t_color: 'Farbe:'
+  filament_t_matrl: 'Material:'
   nozzle_t_diameter: 'Düsendurchmesser:'
   nozzle_t_matrl: 'Düsenmaterial:'
   wifi_c_wait_cancel: 'Warte auf Abbruch...'
@@ -89,11 +94,11 @@ de-DE:
     1. Stellen Sie sicher, dass die Datei für den/die ausgewählten Drucker gesliced wurde.
     2. Stellen Sie sicher, dass die Filamenteinstellungen in der geslicten Datei mit den in den AMS-Slots geladenen Filamenten übereinstimmen.
   print_using_ams: 'AMS verwenden'
-  print_ams: 'Spulenhalter'
+  print_ams: 'Externe Spule'
   print_canceled: 'Abgebrochen'
   print_finished: 'Fertig'
-  print_reprint: 'Erneut drucken'
-  bed_preheating: 'Heizbett-Vorwärmung'
+  print_reprint: 'Neustart'
+  bed_preheating: 'Heizbett Vorwärmen'
   nozzle_clean: 'Düsenspitze reinigen'
   bed_auto_leveing: 'Automatische Bettnivellierung'
   print_preparing: 'Bereite Druck vor'
@@ -307,7 +312,7 @@ de-DE:
 
   00x12FF200000020007: 'Überprüfung des Filamentstandorts im Werkzeugkopf fehlgeschlagen, bitte klicken Sie für weitere Hilfe.'
   00x1200200000020006: 'Fehler beim Extrudieren des AMS%s Slot%s Filaments; der Extruder könnte verstopft sein oder das Filament könnte zu dünn sein, was zum Durchrutschen des Extruders führt.'
-
+  00x1200200000030002: 'AMS%s Slot%s Filament ist leer und wurde automatisch auf einen Slot mit dem gleichen Filament gewechselt.'
 #NOTIFY END
 
 #CONTROL
@@ -383,7 +388,7 @@ de-DE:
 #MQTT END
 
 #FILE
-  file_t_usb_flash_driver: 'USB-Flash-Laufwerk'
+  file_t_usb_flash_driver: 'USB-Laufwerk'
   file_t_name: 'Name'
   file_t_date: 'Datum'
   file_t_size: 'Größe'
@@ -532,5 +537,18 @@ de-DE:
   t_pwr_has_been_bind: 'Dieses PWR wurde bereits an Drucker %s gebunden. Bitte lösen Sie die Bindung, bevor Sie fortfahren.'
   tip_pwr_max: 'Panda Touch unterstützt derzeit die Verbindung von bis zu %d Panda PWR.'
   t_power_off_after_printing: 'Automatisches Ausschalten'
-
+  tip_change_reboot: 'Für eine bessere Geschwindigkeitsleistung ist ein Neustart erforderlich, um wirksam zu werden, weiter?'
+  t_multi_print_heat_delay: 'Mehrfachdruck Wärmeverzögerung'
+  t_file_t_history: 'Druckverlauf'
+  t_history_cost_time: 'Kosten Zeit'
+  t_history_weight: 'Gewicht'
+  t_history_only_cloud: 'Nur Unterstützung für den Cloud-Modus'
+  t_history_not_find: 'Nicht finden'
+  t_default_directory: 'FTPS-Standart-Verzeichnis' 
+  t_reboot_take_effect: 'Neustart erforderlich, um Wirkung zu zeigen, Möchten Sie fortfahren?' 
+  t_send_code: 'Code senden' 
+  tip_send_code: 'Code eingeben' 
+  tip_error_code_length: 'Der Code sollte aus 6 Ziffern bestehen' 
+  tip_error_code: 'Der Code ist ungültig oder bereits abgelaufen; bitte beantragen Sie einen neuen Code.' 
+  tip_error_send_code: 'Code senden fehlgeschalgen. Bitte überprüfen Sie die Internetverbindung' 
 #NEW ADD END
