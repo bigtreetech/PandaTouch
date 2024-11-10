@@ -2,13 +2,11 @@ en-US:
 #SETTING PAGE
   lang_name_t: 'English'
 
-  min_time_t_1: '1 Minuten'
-  min_time_t_2: '2 Minuten'
-  min_time_t_3: '3 Minuten'
-  min_time_t_5: '5 Minuten'
-  min_time_t_10: '10 Minuten'
-  min_time_t_15: '15 Minuten'
-  min_time_t_60: '60 Minuten'
+  sleep_time_t_2: '2min'
+  sleep_time_t_5: '5min'
+  sleep_time_t_10: '10min'
+  sleep_time_t_15: '15min'
+  sleep_time_t_60: '60min'
   sleep_time_t_always: 'Always On'
   setting_gen_t: 'General'
   setting_net_t: 'Network'
@@ -59,13 +57,10 @@ en-US:
   btn_goto_wifi: 'Go to Wi-Fi network'
   btn_ignore: 'Ignore'
   btn_goto_login: 'Go to Login page'
-  btn_dry: 'Trocknen'
-  btn_dry_prepare: 'Trocknen vorbereiten'
-  btn_dry_start: 'Trocknen starten'
 #BUTTONS END
 
   set_net_wifi_scaned: 'Scanned WiFi'
-  welcome_tip: 'Please connect to the internet by selecting the WiFi network on the right and then entering the password. Hit refresh if you don''t see the desired network. Hit next once you have connected to the desired network.'
+  welcome_tip: Please connect to the internet by selecting the WiFi network on the right and then entering the password. Hit refresh if you don't see the desired network. Hit next once you have connected to the desired network.
   tip_scan_qrcode: 'Please use your phone to scan the QR code to access the online manual.'
   loading: 'Loading...'
   top_wifi_connect: 'Connecting to WiFi %s'
@@ -312,7 +307,7 @@ en-US:
 
   00x12FF200000020007: 'Failed to check the filament location in the tool head, please click for more help.'
   00x1200200000020006: 'Failed to extrude AMS%s Slot%s filament, the extruder may be clogged, or the filament may be too thin, causing the extruder slipping.'
-  00x1200200000030002: 'AMS%s Slot%s Filament ist leer und wurde automatisch auf einen Slot mit dem gleichen Filament gewechselt.'
+
 #NOTIFY END
 
 #CONTROL
@@ -537,18 +532,5 @@ en-US:
   t_pwr_has_been_bind: 'This PWR has been bound by Printer %s ,Please unbind it before proceeding.'
   tip_pwr_max: 'Panda Touch currently supports connecting up to %d Panda PWR.'
   t_power_off_after_printing: 'Auto Power-off'
-  tip_change_reboot: 'Für eine bessere Geschwindigkeitsleistung ist ein Neustart erforderlich, um wirksam zu werden, weiter?'
-  t_multi_print_heat_delay: 'Mehrfachdruck Wärmeverzögerung'
-  t_file_t_history: 'Druckverlauf'
-  t_history_cost_time: 'Kosten Zeit'
-  t_history_weight: 'Gewicht'
-  t_history_only_cloud: 'Nur Unterstützung für den Cloud-Modus'
-  t_history_not_find: 'Nicht finden'
-  t_default_directory: 'FTPS-Standart-Verzeichnis'
-  t_reboot_take_effect: 'Neustart erforderlich, um Wirkung zu zeigen, Möchten Sie fortfahren?'
-  t_send_code: 'Code senden'
-  tip_send_code: 'Code eingeben'
-  tip_error_code_length: 'Der Code sollte aus 6 Ziffern bestehen'
-  tip_error_code: 'Der Code ist ungültig oder bereits abgelaufen; bitte beantragen Sie einen neuen Code.'
-  tip_error_send_code: 'Code senden fehlgeschalgen. Bitte überprüfen Sie die Internetverbindung'
+
 #NEW ADD END
