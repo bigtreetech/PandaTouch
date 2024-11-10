@@ -8,9 +8,8 @@ es-ES:
   min_time_t_5: '5min'
   min_time_t_10: '10min'
   min_time_t_15: '15min'
-  min_time_t_60: '60min' 
+  min_time_t_60: '60min'
   sleep_time_t_always: 'Always On'
-  
   setting_gen_t: 'General'
   setting_net_t: 'Red'
   setting_gen_t_dev: 'Dispositivo:'
@@ -523,8 +522,8 @@ es-ES:
   tip_confirm_bind_power: '¿Acepta la vinculación de Panda PWR?'
   tip_confirm_unbind_power: '¿Desea desvincularse de Panda PWR?'
   t_reset_power_usage: |
-      Reiniciar 
-      Consumo
+    Reiniciar 
+    Consumo
   t_reset_power_usage_print: 'Reiniciar Consumo'
   tip_confirm_reset_power_usage: '¿Quiere reiniciar el consumo de energía?'
   t_auto_off: 'Apagado automático'
@@ -539,11 +538,11 @@ es-ES:
   t_history_weight: 'Peso'
   t_history_only_cloud: 'Supporto solo per la modalità Cloud'
   t_history_not_find: 'Non trovato'
-  t_default_directory: 'Ftps-Default-Directory' 
-  t_reboot_take_effect: 'Need reboot to take effect,Do you want to continue?' 
-  t_send_code: 'Send Code' 
-  tip_send_code: 'Input the code' 
-  tip_error_code_length: 'The length of code should be 6' 
-  tip_error_code: 'Code does not exist or has expired; please request a new verification code.' 
-  tip_error_send_code: 'Send code failed please check the internet.' 
+  t_default_directory: 'Ftps-Default-Directory'
+  t_reboot_take_effect: 'Need reboot to take effect,Do you want to continue?'
+  t_send_code: 'Send Code'
+  tip_send_code: 'Input the code'
+  tip_error_code_length: 'The length of code should be 6'
+  tip_error_code: 'Code does not exist or has expired; please request a new verification code.'
+  tip_error_send_code: 'Send code failed please check the internet.'
 #NEW ADD END
