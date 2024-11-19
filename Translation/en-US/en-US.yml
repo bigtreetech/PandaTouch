@@ -2,11 +2,13 @@ en-US:
 #SETTING PAGE
   lang_name_t: 'English'
 
-  sleep_time_t_2: '2min'
-  sleep_time_t_5: '5min'
-  sleep_time_t_10: '10min'
-  sleep_time_t_15: '15min'
-  sleep_time_t_60: '60min'
+  min_time_t_1: '1min'
+  min_time_t_2: '2min'
+  min_time_t_3: '3min'
+  min_time_t_5: '5min'
+  min_time_t_10: '10min'
+  min_time_t_15: '15min'
+  min_time_t_60: '60min' 
   sleep_time_t_always: 'Always On'
   setting_gen_t: 'General'
   setting_net_t: 'Network'
@@ -57,6 +59,9 @@ en-US:
   btn_goto_wifi: 'Go to Wi-Fi network'
   btn_ignore: 'Ignore'
   btn_goto_login: 'Go to Login page'
+  btn_dry: 'dry'
+  btn_dry_prepare: 'Preparare'
+  btn_dry_start: 'Start dry'
 #BUTTONS END
 
   set_net_wifi_scaned: 'Scanned WiFi'
@@ -183,6 +188,7 @@ en-US:
   00x03000D0000010006: 'The build plate is not placed properly. Please adjust it.'
   00x03000D0000010007: 'The build plate is not placed properly. Please adjust it.'
   00x03000D0000010008: 'The build plate is not placed properly. Please adjust it.'
+ 
   00x03000D0000010009: 'The build plate is not placed properly. Please adjust it.'
   00x03000D000001000A: 'The build plate is not placed properly. Please adjust it.'
   00x03000D0000020001: 'Heatbed homing abnormal.'
@@ -193,6 +199,7 @@ en-US:
   00x03000A0000010001: 'The sensititvity of heatbed force sensor %s is too high.'
   00x0300040000020001: 'The speed of part cooling fan if too slow or stopped.'
   00x0300030000020002: 'The speed of hotend fan is slow.'
+ 
   00x0300030000010001: 'The speed of the hotend fan is too slow or stopped.'
   00x0300060000010001: 'Motor-%s has an open-circuit. There may be a loose connection, or the motor may have failed.'
   00x0300060000010002: 'Motor-%s has a short-circuit. It may have failed.'
@@ -203,6 +210,7 @@ en-US:
   00x0300190000010001: 'The eddy current sensor on Y-axis is not available, the wire should be broken.'
   00x0300190000020002: 'The sensitivity of Y-axis eddy current sensor is too low.'
   00x0300400000020001: 'Data transmission over the serial port is abnormal; the software system may be faulty.'
+  
   00x0300410000010001: 'The system voltage is unstable; triggering the power failure protection function.'
   00x0300020000010001: 'The nozzle temperature is abnormal, the heater may be short circuit.'
   00x0300020000010002: 'The nozzle temperature is abnormal, the heater may be open circuit.'
@@ -270,6 +278,7 @@ en-US:
   00x0500040000010003: 'The content of print file is unreadable. Please resend the print job.'
   00x0500040000010004: 'The print file is unauthorized.'
   00x0500040000010006: 'Failed to resume previous print.'
+  
   00x0500040000020007: 'The bed temperature exceeds the filament''s vitrification temperature, which may cause a nozzle clog..'
   00x0700010000010001: 'The AMS%s assist motor has slipped.The extrusion wheel may be worn down,or the filament may be too thin.'
   00x0700010000010003: 'The AMS%s assist motor torque control is malfunctioning.The current sensor may be faulty.'
@@ -307,7 +316,7 @@ en-US:
 
   00x12FF200000020007: 'Failed to check the filament location in the tool head, please click for more help.'
   00x1200200000020006: 'Failed to extrude AMS%s Slot%s filament, the extruder may be clogged, or the filament may be too thin, causing the extruder slipping.'
-
+  00x1200200000030002: 'AMS%s Slot%s filament has run out and automatically switched to the slot with the same filament.'
 #NOTIFY END
 
 #CONTROL
@@ -427,7 +436,7 @@ en-US:
   tip_input_email: 'Please input your email address'
   t_region: 'Region:'
   t_account: 'Account:'
-  t_password: 'Password:'
+  t_password: 'Code:'
   t_region_china: 'CHINA'
   t_region_global: 'GLOBAL'
   tip_phone_incorrect: 'Input the valid phone number'
@@ -444,7 +453,7 @@ en-US:
   tip_account_sync_zero: 'There are no cloud printers in the current account. Please add a printer to this account and then login again.'
   tip_printer_without_cloud: 'This printer has not been bound to this account yet. Please use BambuLab Studio or Handy to add the printer before enable the cloud.'
   tip_printer_login_account: 'Please log in to an account first.'
-  tip_account_error: 'Your account is experiencing issues. Please check if there have been any changes to your account name or password. Also, verify that your account region matches your current location.'
+  tip_account_error: 'Your account is experiencing issues. Please check if there have been any changes to your account name. Also, verify that your account region matches your current location.'
   tip_account_network_error: 'Your network connection is experiencing issues. Please check if the network password has been changed and try reconnecting to restore the printer''s cloud connection.'
   t_login_bambu: 'Login BambuLab Account'
   tip_convert_to_cloud: 'Converting printers to cloud mode. Please wait.'
@@ -453,11 +462,11 @@ en-US:
   tip_printer_work_in_cloud: 'The printer works in cloud mode.'
   tip_printer_work_in_local: 'The printer works on the LAN mode.'
   tip_ftp_ip_invalid: |
-    Please ensure that the printer is on the same LAN as the Panda Touch.
-    Please check and re-edit the "IP" or "Access code".
-  tip_ftp_not_find: 'File not found in root directory.'
-  tip_group_printer_cloud_mode: 'Printer %d: %s is working in cloud mode.'
-  tip_group_printer_local_mode: 'Printer %d: %s is working in LAN mode.'
+   Please ensure that the printer is on the same LAN as the Panda Touch.
+   Please check and re-edit the "IP" or "Access code".
+  tip_ftp_not_find: 'File not found.'
+  tip_group_printer_cloud_mode: 'Printer %d: %s is working in cloud mode.' 
+  tip_group_printer_local_mode: 'Printer %d: %s is working in LAN mode.' 
   tip_group_work_in_cloud: 'The printer group works in cloud mode.'
   tip_group_work_in_local: 'The printer group works in LAN mode.'
 #CLOUD END
@@ -532,5 +541,21 @@ en-US:
   t_pwr_has_been_bind: 'This PWR has been bound by Printer %s ,Please unbind it before proceeding.'
   tip_pwr_max: 'Panda Touch currently supports connecting up to %d Panda PWR.'
   t_power_off_after_printing: 'Auto Power-off'
-
+  tip_change_reboot: 'For a better speed experience, requires a reboot to take effect, continue?'
+  t_multi_print_heat_delay: 'Multi printing heat delay'
+  t_file_t_history: 'Print history'
+  t_history_cost_time: 'Cost time'
+  t_history_weight: 'Weight'
+  t_history_only_cloud: 'Only support for Cloud mode'
+  t_history_not_find: 'Not find'
+  t_default_directory: 'Printer-Default-Directory' 
+  t_reboot_take_effect: 'Need reboot to take effect,Do you want to continue?' 
+  t_send_code: 'Send Code' 
+  tip_send_code: 'Input the code' 
+  tip_error_code_length: 'The length of code should be 6' 
+  tip_error_code: 'Code does not exist or has expired; please request a new verification code.' 
+  tip_error_send_code: 'Send code failed please check the internet.' 
+  tip_loading_thumbnail: 'Loading data from printer. Please wait a second.' 
+  t_sd_enhanced_load_thumbnails: 'Enhanced thumbnail display'  
+  tip_enhanced_load_effect: 'start printing from USB stick or click sd-card panel will cause a long delay and it will takes effect after reboot, continue?' 
 #NEW ADD END
