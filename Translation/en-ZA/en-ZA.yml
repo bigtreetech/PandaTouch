@@ -8,7 +8,7 @@ en-ZA:
   min_time_t_5: '5min'
   min_time_t_10: '10min'
   min_time_t_15: '15min'
-  min_time_t_60: '60min' 
+  min_time_t_60: '60min'
   sleep_time_t_always: 'Always On'
   setting_gen_t: 'General'
   setting_net_t: 'Network'
@@ -458,11 +458,11 @@ en-ZA:
   tip_printer_work_in_cloud: 'The printer works in cloud mode.'
   tip_printer_work_in_local: 'The printer works on the LAN mode.'
   tip_ftp_ip_invalid: |
-   Please ensure that the printer is on the same LAN as the Panda Touch.
-   Please check and re-edit the "IP" or "Access code".
+    Please ensure that the printer is on the same LAN as the Panda Touch.
+    Please check and re-edit the "IP" or "Access code".
   tip_ftp_not_find: 'File not found.'
-  tip_group_printer_cloud_mode: 'Printer %d: %s is working in cloud mode.' 
-  tip_group_printer_local_mode: 'Printer %d: %s is working in LAN mode.' 
+  tip_group_printer_cloud_mode: 'Printer %d: %s is working in cloud mode.'
+  tip_group_printer_local_mode: 'Printer %d: %s is working in LAN mode.'
   tip_group_work_in_cloud: 'The printer group works in cloud mode.'
   tip_group_work_in_local: 'The printer group works in LAN mode.'
 #CLOUD END
@@ -544,14 +544,14 @@ en-ZA:
   t_history_weight: 'Weight'
   t_history_only_cloud: 'Only support for Cloud mode'
   t_history_not_find: 'Not find'
-  t_default_directory: 'Printer-Default-Directory' 
-  t_reboot_take_effect: 'Need reboot to take effect,Do you want to continue?' 
-  t_send_code: 'Send Code' 
-  tip_send_code: 'Input the code' 
-  tip_error_code_length: 'The length of code should be 6' 
-  tip_error_code: 'Code does not exist or has expired; please request a new verification code.' 
-  tip_error_send_code: 'Send code failed please check the internet.' 
-  tip_loading_thumbnail: 'Loading data from printer. Please wait a second.' 
-  t_sd_enhanced_load_thumbnails: 'Enhanced thumbnail display'  
-  tip_enhanced_load_effect: 'start printing from USB stick or click sd-card panel will cause a long delay and it will takes effect after reboot, continue?' 
+  t_default_directory: 'Printer-Default-Directory'
+  t_reboot_take_effect: 'Need reboot to take effect,Do you want to continue?'
+  t_send_code: 'Send Code'
+  tip_send_code: 'Input the code'
+  tip_error_code_length: 'The length of code should be 6'
+  tip_error_code: 'Code does not exist or has expired; please request a new verification code.'
+  tip_error_send_code: 'Send code failed please check the internet.'
+  tip_loading_thumbnail: 'Loading data from printer. Please wait a second.'
+  t_sd_enhanced_load_thumbnails: 'Enhanced thumbnail display'
+  tip_enhanced_load_effect: 'start printing from USB stick or click sd-card panel will cause a long delay and it will takes effect after reboot, continue?'
 #NEW ADD END

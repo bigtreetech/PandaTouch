@@ -8,9 +8,8 @@ es-ES:
   min_time_t_5: '5min'
   min_time_t_10: '10min'
   min_time_t_15: '15min'
-  min_time_t_60: '60min' 
+  min_time_t_60: '60min'
   sleep_time_t_always: 'Siempre encendido'
-  
   setting_gen_t: 'General'
   setting_net_t: 'Red'
   setting_gen_t_dev: 'Dispositivo:'
@@ -108,7 +107,7 @@ es-ES:
   filament_unknown: 'Se desconoce el tipo de filamento, pero es necesario para realizar esta acción. ¿Desea editar la información del filamento?'
   printer_add_repeat: 'Esta impresora ya ha sido añadida al Panda Touch y no puede ser añadida de nuevo'
   printer_has_add: 'Ya añadida'
-  printer_busy: |
+  printer_busy: |2
 
 
     Impresora ocupada
@@ -523,8 +522,8 @@ es-ES:
   tip_confirm_bind_power: '¿Acepta la vinculación de Panda PWR?'
   tip_confirm_unbind_power: '¿Desea desvincularse de Panda PWR?'
   t_reset_power_usage: |
-      Reiniciar 
-      Consumo
+    Reiniciar 
+    Consumo
   t_reset_power_usage_print: 'Reiniciar Consumo'
   tip_confirm_reset_power_usage: '¿Quiere reiniciar el consumo de energía?'
   t_auto_off: 'Apagado automático'
@@ -539,14 +538,14 @@ es-ES:
   t_history_weight: 'Peso'
   t_history_only_cloud: 'Sólo soportado en la modalidad "nube"'
   t_history_not_find: 'No encontrado'
-  t_default_directory: 'Carpeta por defecto Ftps' 
-  t_reboot_take_effect: 'Es necesario reiniciar para que surta efecto, ¿Desea continuar?' 
-  t_send_code: 'Enviar código' 
-  tip_send_code: 'contraseña' 
-  tip_error_code_length: 'Longitud 6' 
-  tip_error_code: 'Contraseña no existe o ha caducado; solicite un nuevo código de verificación.' 
-  tip_error_send_code: 'Enviar Contraseña falló por favor revise el internet.' 
-  tip_loading_thumbnail: 'La comunicación con la impresora está ocupada en este momento. Por favor, espere un segundo.' 
-  t_sd_enhanced_load_thumbnails: 'Enhanced thumbnail display'  
-  tip_enhanced_load_effect: 'start printing from USB stick or click sd-card panel will cause a long delay and it will takes effect after reboot, continue?' 
+  t_default_directory: 'Carpeta por defecto Ftps'
+  t_reboot_take_effect: 'Es necesario reiniciar para que surta efecto, ¿Desea continuar?'
+  t_send_code: 'Enviar código'
+  tip_send_code: 'contraseña'
+  tip_error_code_length: 'Longitud 6'
+  tip_error_code: 'Contraseña no existe o ha caducado; solicite un nuevo código de verificación.'
+  tip_error_send_code: 'Enviar Contraseña falló por favor revise el internet.'
+  tip_loading_thumbnail: 'La comunicación con la impresora está ocupada en este momento. Por favor, espere un segundo.'
+  t_sd_enhanced_load_thumbnails: 'Enhanced thumbnail display'
+  tip_enhanced_load_effect: 'start printing from USB stick or click sd-card panel will cause a long delay and it will takes effect after reboot, continue?'
 #NEW ADD END
