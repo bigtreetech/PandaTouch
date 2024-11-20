@@ -551,7 +551,7 @@ de-DE:
   tip_error_code_length: 'Der Code sollte aus 6 Ziffern bestehen'
   tip_error_code: 'Der Code ist ungültig oder bereits abgelaufen; bitte beantragen Sie einen neuen Code.'
   tip_error_send_code: 'Code senden fehlgeschalgen. Bitte überprüfen Sie die Internetverbindung'
-  tip_loading_thumbnail: 'Loading data from printer. Please wait a second.'
-  t_sd_enhanced_load_thumbnails: 'Enhanced thumbnail display'
-  tip_enhanced_load_effect: 'start printing from USB stick or click sd-card panel will cause a long delay and it will takes effect after reboot, continue?'
+  tip_loading_thumbnail: 'Daten werden vom Drucker geladen. Bitte warten Sie eine Sekunde.'
+  t_sd_enhanced_load_thumbnails: 'Verbesserte Anzeige von Vorschaubildern'
+  tip_enhanced_load_effect: 'Starten Sie den Druck von einem USB-Stick oder klicken Sie auf das SD-Karten-Feld, kann das zu einer langen Verzögerung führt. Dies ist erst nach einem Neustart wirksam wird. Möchtest du fortfahren?'
 #NEW ADD END
