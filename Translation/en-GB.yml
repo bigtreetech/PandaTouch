@@ -66,7 +66,7 @@ en-GB:
 #BUTTONS END
 
   set_net_wifi_scaned: 'Scanned WiFi'
-  welcome_tip: Please connect to the internet by selecting the WiFi network on the right and then entering the password. Hit refresh if you don't see the desired network. Hit next once you have connected to the desired network.
+  welcome_tip: 'Please connect to the internet by selecting the WiFi network on the right and then entering the password. Hit refresh if you don''t see the desired network. Hit next once you have connected to the desired network.'
   tip_scan_qrcode: 'Please use your phone to scan the QR code to access the online manual.'
   loading: 'Loading...'  
   top_wifi_connect: 'Connecting to WiFi %s'
@@ -438,7 +438,7 @@ en-GB:
   tip_input_email: 'Please input your email address' 
   t_region: 'Region:'
   t_account: 'Account:'
-  t_password: 'Password:'
+  t_password: 'Code:'
   t_region_china: 'CHINA'
   t_region_global: 'GLOBAL'
   tip_phone_incorrect: 'Input the valid phone number' 
@@ -550,11 +550,14 @@ en-GB:
   t_history_weight: 'Weight'
   t_history_only_cloud: 'Only support for Cloud mode'
   t_history_not_find: 'Not find'
-  t_default_directory: 'Ftps-Default-Directory' 
+  t_default_directory: 'Printer-Default-Directory' 
   t_reboot_take_effect: 'Need reboot to take effect,Do you want to continue?' 
   t_send_code: 'Send Code' 
   tip_send_code: 'Input the code' 
   tip_error_code_length: 'The length of code should be 6' 
   tip_error_code: 'Code does not exist or has expired; please request a new verification code.' 
   tip_error_send_code: 'Send code failed please check the internet.' 
+  tip_loading_thumbnail: 'Loading data from printer. Please wait a second.' 
+  t_sd_enhanced_load_thumbnails: 'Enhanced thumbnail display'  
+  tip_enhanced_load_effect: 'start printing from USB stick or click sd-card panel will cause a long delay and it will takes effect after reboot, continue?' 
 #NEW ADD END
