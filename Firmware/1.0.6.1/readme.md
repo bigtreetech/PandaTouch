@@ -1,8 +1,9 @@
 ## Fixed BUGS
 * 1 Crash when printing from a USB stick.
-* 2 Crash when prompted for OTA by clicking. 
-* 3 stop loading thumbnail when printing.
-on WIFI name
+* 2 Crash when prompted for OTA by clicking on WIFI name. 
+## change
+1 stop loading thumbnail when printing.
+
 
 ## Please use "download raw file"
 

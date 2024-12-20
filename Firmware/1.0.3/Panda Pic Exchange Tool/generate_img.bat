@@ -1,6 +1,0 @@
-@echo off
-set /a CONFIG_DEBUG_SWITCH=1
-set /a CONFIG_FILE_TYPE=1
-set CONFIG_FILE_NAME="new_panda.png" 
-
-generate_img %CONFIG_DEBUG_SWITCH% %CONFIG_FILE_TYPE% %CONFIG_FILE_NAME%
