@@ -316,7 +316,7 @@ cs-CZ:
 #NOTIFY END
 
 #CONTROL
-  ctl_top_t_temp_axis: 'Teplota/Osa'
+  ctl_top_t_temp_axis: 'Teplota/Pozice'
   ctl_top_t_filament: 'Filament'
   ctl_t_part: 'Díl'
   ctl_t_aux: 'Pomocný'
