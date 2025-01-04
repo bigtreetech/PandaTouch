@@ -544,7 +544,7 @@ cs-CZ:
   t_history_weight: 'Váha'
   t_history_only_cloud: 'Pouze pro Cloud mode'
   t_history_not_find: 'Nenalezeno'
-  t_default_directory: 'Výchozí-Adresář-Tiskárny'
+  t_default_directory: 'Výchozí adresář'
   t_reboot_take_effect: 'Je třeba restartovat. Chcete pokračovat?'
   t_send_code: 'Zaslat kód'
   tip_send_code: 'Vložte kód'
