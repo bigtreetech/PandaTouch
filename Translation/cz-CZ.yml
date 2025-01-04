@@ -538,7 +538,7 @@ cs-CZ:
   tip_pwr_max: 'Panda Touch nyní podporuje připojení k %d Panda PWR.'
   t_power_off_after_printing: 'Automatické vypnutí'
   tip_change_reboot: 'Chcete-li dosáhnout vyšší rychlosti, vyžaduje se restart. Restartovat?'
-  t_multi_print_heat_delay: 'Teplotní zopoždění vícenásobného tisku'
+  t_multi_print_heat_delay: 'Teplotní zpoždění vícenásobného tisku'
   t_file_t_history: 'Historie tisku'
   t_history_cost_time: 'Cena času'
   t_history_weight: 'Váha'
