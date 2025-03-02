@@ -101,7 +101,7 @@ de-DE:
   bed_preheating: 'Heizbett Vorwärmen'
   nozzle_clean: 'Düsenspitze reinigen'
   bed_auto_leveing: 'Automatische Bettnivellierung'
-  print_preparing: 'Bereite Druck vor'
+  print_preparing: 'Druck vorbereiten'
   print_t: 'Drucker'
   print_not_find: 'Keine Drucker gefunden, überprüfen Sie Ihr Netzwerk und scannen Sie erneut'
   filament_unknown: 'Filamenttyp ist unbekannt, aber ist erforderlich, um diese Aktion auszuführen. Möchten Sie die Informationen des Filaments bearbeiten?'
