@@ -22,10 +22,10 @@ If you would like to help by translating the Panda Touch UI into your native lan
   a. Use  Vscode as your editor.
   b. Ensure that you use two spaces (0x20) as your indentation characters for the YAML file. Do not use tabs or any other type of character.
   c. Run your YAML file through an online validator such as https://yamlchecker.com/. Note that even these validators can miss the incorrect use of indentation characters so this is worth double checking in your editor.
-  d. You can also use our own YAML to IMG generator to check your file before commiting. If it fails generation then there is an issue with the file https://pandatouch.us.kg/
+  d. You can also use [online tool](https://ptimgtool.bttwiki.com) to check your file before commiting. If it fails generation then there is an issue with the file
 11. Once the translation is complete, commit your changes to your fork and then create a PR to this repo.
 
-Once the PR is accepted, we will generate an IMG file and upload it to this repo for others to use. You can also generate your own IMG file online using https://pandatouch.us.kg/
+Once the PR is accepted, we will generate an IMG file and upload it to this repo for others to use. You can also generate your own IMG file online using [online tool](https://ptimgtool.bttwiki.com)
 
 If you struggle to use the git forking workflow but would still like to contribute a translation then please feel free to attach your translation to a comment in this thread: https://github.com/bigtreetech/PandaTouch/issues/82
 
