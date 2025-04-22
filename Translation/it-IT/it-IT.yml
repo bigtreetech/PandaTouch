@@ -1,0 +1,575 @@
+it-IT: 
+#SETTING PAGE
+  lang_name_t: 'Italiano'
+
+  min_time_t_1: '1min'
+  min_time_t_2: '2min'
+  min_time_t_3: '3min'
+  min_time_t_5: '5min'
+  min_time_t_10: '10min'
+  min_time_t_15: '15min'
+  min_time_t_60: '60min' 
+  sleep_time_t_always: 'Sempre attivo'
+  
+  setting_gen_t: 'Generale'
+  setting_net_t: 'Rete'
+  setting_gen_t_dev: 'Dispositivo:'
+  setting_gen_t_man: 'Produttore:'
+  setting_gen_t_lang: 'Lingua:'
+  setting_gen_t_fw: 'Firmware:'
+  setting_gen_t_slp: 'Salva schermo:'
+  setting_gen_t_backlight: 'Luminosità dello sfondo:'
+  setting_gen_t_reb: 'Riavvia'
+  setting_gen_t_rst: 'Ripristino delle impostazioni di fabbrica'
+#SETTING PAGE END
+
+#BUTTONS
+  btn_cancel: 'Annulla'
+  btn_ok: 'OK'
+  btn_restart: 'Riavvia'
+  btn_refresh: 'Aggiorna'
+  btn_confirm: 'Conferma'
+  btn_next: 'Successivo'
+  btn_back: 'Precedente'
+  btn_del: 'Cancella'
+  btn_scan: 'Scansiona'
+  btn_factory: 'Ripristino impostazioni di fabbrica'
+  btn_close: 'Chiudi'
+  btn_ignore_all: 'Ignora Tutto'
+  btn_load: 'Carica' 
+  btn_unload: 'Scarica' 
+  btn_retry: 'Riprova' 
+  btn_abort: 'Ferma'
+  btn_print: 'Stampa'
+  btn_remove: 'Rimuovi'
+  btn_stop: 'Stop'
+  btn_pause: 'Pausa'
+  btn_resume: 'Riprendi'
+  btn_filament: 'Filamento'
+  btn_done: 'Fatto'
+  btn_stop_all: 'Ferma Tutto'
+  btn_format: 'Formato'
+  btn_disconnect: 'Disconnetti'
+  btn_edit: 'Edita'
+  btn_yes: 'Si'
+  btn_no: 'No'
+  btn_reset: 'Ripristino'
+  btn_add_printer: 'Aggiungi Stampante'
+  btn_add_group: 'Aggiungi Gruppo'
+  btn_goto_printers: 'Vai alla pagina multi-device'
+  btn_goto_wifi: 'Vai sulla rete Wi-Fi'
+  btn_ignore: 'Ignora'
+  btn_goto_login: 'Vai alla pagina del Login'
+  btn_dry: 'Deidrata'
+  btn_dry_prepare: 'Prepara'
+  btn_dry_start: 'Avvia Deidratazione'
+  btn_skip_obj: 'Salta'
+#BUTTONS END
+
+  set_net_wifi_scaned: 'Scansione rete Wi-Fi'
+  welcome_tip: 'Collegarsi a Internet selezionando la rete Wi-Fi sulla destra e inserendo la password. Se non viene visualizzata la rete desiderata, premere Aggiorna. Una volta effettuata la connessione alla rete desiderata, premere Avanti.'
+  tip_scan_qrcode: 'Utilizzare il telefono per scansionare il codice QR e accedere al manuale online.'
+  loading: 'Caricamento...'  
+  top_wifi_connect: 'Connessione a Wi-Fi %s'
+  top_wifi_connect_fail: 'Impossibile connettersi alla rete Wi-Fi: %s'
+  top_wifi_disconnected: 'Disconnesso dal Wi-Fi: %s'
+  top_print_connecting: 'Connessione alla stampante %d: %s'
+  top_print_connected: 'Connessione riuscita con la stampante %d: %s'
+  top_print_connect_fail: 'Impossibile connettersi alla stampante %d: %s'
+#PRINT
+  panda_touch: 'Panda Touch'
+  printer_model: 'Modello:'
+  printer_name: 'Nome:'   
+  scan_print_t_acescd: 'Codice Accesso:'
+  scan_print_t_ip: 'IP Stampante:'
+  filament_t_color: 'Colore del filamento:'
+  filament_t_matrl: 'Materiale del Filamento:'
+  nozzle_t_diameter: 'Diametro del Nozzle:'
+  nozzle_t_matrl: 'Materiale del Nozzle:'
+  wifi_c_wait_cancel: 'In attesa della cancellazione...'
+  print_bed_leveling: 'Livellamento del piano'
+  print_flow_calibration: 'Calibrazione Flusso'
+  print_timelapse: 'Timelapse' 
+  prints_in_sync: 'Stampanti sincronizzate: %d'
+  start_print_confirm: |
+   Prima di avviare la stampa, tenere presente quanto segue:
+   1. Assicurarsi che il file sia stato impostato sullo slicer per la stampante selezionata.
+   2. Assicurarsi che le impostazioni del filamento sullo slicer corrispondano al filamento caricato negli slot AMS.
+  print_using_ams: 'Usa AMS'
+  print_ams: 'Esterna'
+  print_canceled: 'Cancellato'
+  print_finished: 'Terminato'
+  print_reprint: 'Ristampa'
+  bed_preheating: 'Pre riscaldamento'
+  nozzle_clean: 'Pulizia nozzle'
+  bed_auto_leveing: 'Auto livellamento'
+  print_preparing: 'Preparazione stampa'
+  print_t: 'Stampante'
+  print_not_find: 'Nessuna stampante trovata, controllare la rete e ripetere la scansione.'
+  filament_unknown: 'Il tipo di filamento è sconosciuto, ma necessario per eseguire questa azione. Si desidera aggiornare le informazioni sul filamento?'
+  printer_add_repeat: 'Questa stampante è già presente su Panda Touch e non può essere aggiunta nuovamente.'
+  printer_has_add: 'Già aggiunta'
+  printer_busy: |
+   
+   
+   Stampante impegnata
+  nozzle_temperature: 'Temperatura Nozzle'
+  bambu_info_readonly: 'Le informazioni per i filamenti BambuLab sono memorizzate su RFID e sono di sola lettura.'
+  setting_slot_not_sup: 'Non si possono modificare le impostazioni dello slot durante la stampa.'
+  filament_minimum: 'Minimo'
+  filament_maximum: 'Massimo'
+  filament_unknown_type: 'Sconosciuto'
+#PRINT  
+#TIPS  
+  tip_input_optional: '(Facoltativo)'
+  tip_input_name: '(Obbligatorio)Inserire il nome della stampante'
+  tip_input_ip: '(Obbligatorio)Inserire IP della stampante'
+  tip_input_acescd: '(Obbligatorio)Inserire il codice di accesso'
+  tip_input_sn: '(Obbligatorio)Inserire SN'
+  pop_tip_add_dev: 'Confermare se si desidera aggiungere la connessione a questa stampante a Panda Touch'
+  pop_tip_restart: 'Confermare se si vuole riavviare Panda Touch.'
+  pop_tip_input_password: 'Inserire la password'
+  pop_tip_factory: 'Confermare se si desidera ripristinare le impostazioni di fabbrica. Panda Touch dimenticherà tutte le impostazioni Wi-Fi e le stampanti aggiunte. Una volta fatto, verrà eseguito un riavvio.'
+  new_tip_get_info: 'Come ottenere IP, Codice di accesso e Codice SN.'
+  pop_tip_print_abort: 'Confermare se interrompere tutte le attività di caricamento e stampa in coda.'
+  tip_not_insert_sdcard: 'La scheda MicroSD non è inserita nella stampante.'
+  tip_not_insert_usb_flash: 'Unità flash USB non inserita.'
+  tip_not_select_print: 'Nessuna stampante selezionata, selezionare almeno una stampante per avviare la stampa.'
+  tip_remove_refuse: 'È possibile eliminare solo le stampanti “Disconnesse”. Impostare la stampante su “Disconnessa” prima di eliminarla.'
+  tip_remove_confirm: 'Confermare se si desidera rimuovere la stampante da Panda Touch.'
+  tip_master_must: 'Deve esserci almeno una stampante impostata come “Master”.'
+  tip_mainly_query: 'Solo una stampante può essere impostata come “Master”. Si desidera impostare questa stampante come “Master” e impostare la vecchia stampante “Master” su “Sync”?'
+  tip_printer_max: 'Panda Touch attualmente supporta solo il collegamento di un massimo di “%d” stampanti. È possibile utilizzare una seconda unità Panda Touch per controllare altre stampanti.'
+  tip_pause_all: 'Si è sicuri di voler sospendere tutte le stampe in corso?'
+  tip_stop_all: 'Una volta interrotta una stampa, non è possibile riprenderla. Siete sicuri di voler interrompere tutte le stampe in corso?'
+  tip_faild_upload: |
+   Il caricamento del file non è riuscito, verificare quanto segue:
+   1. Alla stampante è collegata correttamente una scheda SD e tale scheda SD ha una capacità sufficiente.
+   2. Assicurarsi che la chiavetta USB sia correttamente inserita su Panda Touch.
+   3. Spostarsi in un luogo con un segnale Wi-Fi migliore.
+   4. In modalità cloud, controllare e impostare nuovamente “IP” e “Codice di accesso”.
+  tip_wifi_disconnected: 'La connessione Wi-Fi è stata interrotta. Assicurarsi di essere in una zona con una potenza di segnale sufficiente.'
+  tip_wifi_error: 'Impossibile connettersi alla rete Wi-Fi corrente, verificare la potenza del segnale e la password inserita e riprovare a connettersi.'
+  tip_unload_has_filament: 'Rimuovere il filamento dall’estrusore e verificare che non vi siano pezzi o detriti incastrati nell’estrusore, se AMS è da utilizzare successivamente, connettere il tubo PTFE direttamente al giunto.'
+  tip_unload_has_filament_l: 'Rimuovere manualmente il filamento dall’estrusore e verificare che non vi sia un pezzo rotto di filamento nell’estrusore, se in seguito verrà utilizzato un  AMS, collegare il tubo PTFE alla derivazione e premere sul tasto “Riprova”.'
+  tip_load_no_filament: 'Alimentare manualmente dalla bobina sino al nozzle in modo da attivare il sensore di presenza del filamento.'
+  tip_load_no_filament_l: 'Alimentare manualmente dalla bobina sino al nozzle in modo da attivare il sensore di presenza del filamento  e premere sul tasto “Riprova”.'
+  tip_load_filament: 'Osservare l’ugello. Se si vede del filamento che viene estruso, premere su “Fatto”; in caso contrario, spingere leggermente il filo in avanti, verso l’estrusore e premere su “Riprova”.'
+  tip_heatbreak_fan: 'La velocità della ventola del dissipatrore è anormale.'
+  tip_parsing_gcode: 'Vi è stato un problema nel processare il gcode.3mf. Reinviare la stampa.'
+  tip_nozzle_temp_malf: 'Malfunzionamento della temperatura del Nozzle.'
+  tip_front_cover: 'La stampa è stata interrotta perché il coperchio anteriore della testina è caduto. Rimontarlo e premi icona per riprendere il lavoro di stampa.'
+  tip_filament_runout: 'Il filo è terminato. Caricarne uno nuovo in “Filamento” e premere “Riprendi” per far ripartire la stampa.'
+  tip_pause_print: 'Si è sicuri di voler mettere in pausa la stampa in corso?'
+  tip_stop_print: 'Una volta interrotta una stampa, non è possibile riprenderla. Si è sicuri di voler interrompere la stampa in corso?'
+  tip_ams_runout: 'Il filamento AMS è esaurito. Inserire un nuovo filamento nell’AMS e premere sul tasto “Riprova”.'
+  tip_ams_overload: 'Il motore di assistenza AMS è sovraccarico. Controllare se la bobina o il filamento sono bloccati. Dopo aver risolto il problema, e premere sul tasto “Riprova”.'
+  tip_failed_feed: 'Non è stato possibile alimentare il filamento sino al nozzle. Controllare se il filamento o la bobina sono bloccati. Dopo aver risolto il problema, premere il tasto “Riprova”.'
+  tip_failed_pull: 'Non è stato possibile estrarre il filamento dall’estrusore. Verificare se l’estrusore è intasato o se il filamento si è rotto all’interno dell’estrusore. Dopo aver risolto il problema, premere il tasto “Riprova”.'
+  tip_failed_extrude: 'Non è stato possibile estrudere il filamento. Controllare se l’estrusore è intasato. Dopo aver risolto il problema, premere il tasto “Riprova”.'
+  tip_failed_feed_outside: 'Non è stato possibile estrarre il filamento all’esterno dell’AMS. Tagliare perpendicolarmente al filamento l’estremità e verificare che la bobina non sia bloccata. Dopo aver risolto il problema, premere sul tasto “Riprova”.'
+  tip_select_model: 'Selezionare il modello della stampante'
+  tip_ams_busy: 'Impossibile leggere le informazioni sul filamento; AMS occupato. Riprovare più tardi.'
+  tip_ams_reading: 'AMS impegnato nella lettura delle informazioni sul filamento; riprovare più tardi.'
+  tip_ams_tray_empty: 'Questo alloggiamento è vuoto. Riprovare dopo aver inserito il filamento.'
+  tip_firmware: 'Scansionare il codice per visualizzare la cronologia delle versioni firmware oltre alle istruzioni su come aggiornarlo.'
+#TIPS END 
+#NOTIFY
+  notify_center_t: 'Centro Notifiche'
+  notify_cnt_t: 'numero di notifiche:'
+  notify_remind: 'Eseguire la scansione del codice per visualizzare le possibili soluzioni, oppure e premere sul tasto “Vai alla stampante” per impostare questa stampante come stampante “Master”.'
+  notify_remind_go_print: 'Vai alla stampante'
+  notify_unknow_state: 'Codice di stato sconosciuto per Panda Touch.'
+  
+  00x0300100000020001: 'The resonance frequency of the %s axis is low. The timing belt may be loose.' 
+  00x0300100000020002: 'La risonanza meccanica dell’asse %s è molto diversa dall’ultima calibrazione, si prega di rieseguire la calibrazione della macchina.'
+  00x03000F0000010001: 'I dati dell’accelerometro non sono disponibili.'
+  00x03000D000001000B: 'Il motore dell’asse Z sembra essersi bloccato quando si sposta verso alto.'
+  00x03000D0000010003: 'Il piano di stampa non è posizionato correttamente. Occorre regolarlo.'
+  00x03000D0000010004: 'Il piano di stampa non è posizionato correttamente. Occorre regolarlo.'
+  00x03000D0000010005: 'Il piano di stampa non è posizionato correttamente. Occorre regolarlo.'
+  00x03000D0000010006: 'Il piano di stampa non è posizionato correttamente. Occorre regolarlo.'
+  00x03000D0000010007: 'Il piano di stampa non è posizionato correttamente. Occorre regolarlo.'
+  00x03000D0000010008: 'Il piano di stampa non è posizionato correttamente. Occorre regolarlo.'
+ 
+  00x03000D0000010009: 'Il piano di stampa non è posizionato correttamente. Occorre regolarlo.'
+  00x03000D000001000A: 'Il piano di stampa non è posizionato correttamente. Occorre regolarlo.'
+  00x03000D0000020001: 'La Homing del piatto non è stata terminata correttamente.'
+  00x03000A0000010005: 'Il sensore di forza %s ha rilevato una resistenza inaspettata. Il piano scaldante potrebbe essere bloccato o l’estremità analogica potrebbe essere rotta.'
+  00x03000A0000010004: 'Durante il test della sensibilità del sensore di forza %s è stato rilevato un disturbo esterno. Il piano scaldante potrebbe aver toccato qualcosa di esterno.'
+  00x03000A0000010003: 'La sensibilità del sensore di forza del piano scaldante %s è troppo bassa.'
+  00x03000A0000010002: 'La sensibilità del sensore di forza del piano scaldante %s è bassa.'
+  00x03000A0000010001: 'La sensibilità del sensore di forza del piano scaldante %s è troppo alta'
+  00x0300040000020001: 'La velocità della ventola di raffreddamento è troppo bassa o si è fermata.'
+  00x0300030000020002: 'La velocità della ventola dell’hotend è bassa.'
+ 
+  00x0300030000010001: 'La velocità della ventola dell’hotend è bassa o si è fermata.'
+  00x0300060000010001: 'Il motore%s ha un circuito aperto. Potrebbe esserci un collegamento allentato o il motore potrebbe essersi guastato.'
+  00x0300060000010002: 'Il motore-%s è in cortocircuito. Potrebbe essersi guastato.'
+  00x0300060000010003: 'La resistenza del motore%s è anormala, il motore potrebbe essersi guastato.'
+  00x0300010000010007: 'La temperatura del piano scaldante è anomala; il sensore potrebbe avere un circuito aperto.'
+  00x0300130000010001: 'Il sensore di corrente del motore%s è anomalo. Ciò può essere causato da un guasto del circuito hardware di campionamento.'
+  00x0300180000010005: 'Il motore dell’asse Z sembra essersi bloccato durante il movimento, verificare la presenza di corpi estranei sulle parti in movimento e sugli ingranaggi della cinghia dentata dell’asse Z.'
+  00x0300190000010001: 'Il sensore di correnti parassite sull’asse Y non è disponibile, il collegamento potrebbe essere interrotto.'
+  00x0300190000020002: 'La sensibilità del sensore di correnti parassite dell’asse Y è troppo bassa.'
+  00x0300400000020001: 'La trasmissione dei dati sulla porta seriale è anomala; il sistema software potrebbe essere difettoso.'
+  
+  00x0300410000010001: 'La tensione del sistema è instabile; è attiva la funzione di protezione dall’interruzione di corrente.'
+  00x0300020000010001: 'La temperatura dell’ugello è anomala, l’elemento riscaldante potrebbe essere in cortocircuito.'
+  00x0300020000010002: 'La temperatura dell’ugello è anomala, Il circuito dell’elemento riscaldante potrebbe essere aperto.'
+  00x0300020000010003: 'La temperatura dell’ugello è anomala, l’elemento riscaldante è in sovratemperatura.'
+  00x0300020000010006: 'La temperatura dell’ugello è anomala, il sensore potrebbe essere in cortocircuito.'
+  00x0300020000010007: 'La temperatura dell’ugello è anomala, il sensore potrebbe essere aperto.'
+  00x0300120000020001: 'Il coperchio anteriore dell’estrusore si è staccato.'
+  00x0300180000010001: 'Il valore del sensore della forza di estrusione è basso, il nozzle sembra non essere installato.'
+  00x0300180000010002: 'La sensibilità del sensore della forza di estrusione è bassa, l’hotend potrebbe non essere installato correttamente.'
+  00x0300180000010003: 'Il sensore della forza di estrusione non è disponibile, il collegamento tra MC e TH può essere interrotto o esssersi rotto il sensore.'
+
+  00x0300180000010004: 'I dati del sensore di forza dell’estrusione sono anomali, il sensore deve essere rotto.'
+  00x03001A0000020001: 'Il nozzle è avvolto dal filamento o il piano di costruzione è posizionato in modo errato.'
+  00x03001A0000020002: 'Il sensore della forza dell’estrusione ha rilevato un intasamento dell’ugello.'
+  00x0C00010000010001: 'Il sensore ottico del Micro Lidar è offline.'
+  00x0C00010000020002: 'Il sensore ottico del Micro Lidar non funziona correttamente.'
+  00x0C00010000010003: 'Sincronizzazione Micro Lidar anormale.'
+  00x0C00010000010004: 'La lente del Micro Lidar è sporca.'
+  00x0C00010000010005: 'Il parametro OTP del Micro Lidar è anormale.'
+  00x0C00010000020006: 'Il parametro estrinseco del Micro Lidar è anormale.'
+  00x0C00010000020007: 'Il parametro del laser Micro Lidar ha subito una deriva.'
+
+  00x0C00010000020008: 'La telecamera interna è offline.'
+  00x0C00010000010009: 'La lente della telecamera interna è sporca.'
+  00x0C0001000001000A: 'Il LED del Micro Lidar LED potrebbe essere rotto.'
+  00x0C0001000002000B: 'Impossibile calibrare il Micro Lidar.'
+  00x0C00020000010001: 'Il Laser non acceso'
+  00x0C00020000020002: 'Il fascio Laser è troppo spesso.'
+  00x0C00020000020003: 'Il fascio Laser non è sufficientemente luminoso.'
+  00x0C00020000020004: 'L’altezza del nozzle sembra essere troppo bassa.'
+  00x0C00020000010005: 'Un nuovo Micro Lidar è stato rilevato.'
+  00x0C00020000020006: 'L’altezza del nozzle sembra essere troppo alta.'
+
+  00x0C00030000020001: 'La misurazione dell’esposizione dei filamenti non è riuscita.'
+  00x0C00030000020002: 'La verifica del primo layer è stata interrotta a causa di dati del Micro Lidar anomali.'
+  00x0C00030000020004: 'La verifica del primo layer non è supportata per il lavoro di stampa corrente.'
+  00x0C00030000020005: 'Timeout durante la verifica del primo layer.'
+  00x0C00030000030006: 'I filamenti spurgati si sono accumulati.'
+  00x0C00030000030007: 'Possibli difetti nel primo layer.'
+  00x0C00030000030008: 'Possibile che si siano creati "spaghetti" di filamento.'
+  00x0C00030000010009: 'Il modulo di verifica del primo livello è stato riavviato.'
+  00x0C0003000003000B: 'Verifica del primo layer.'
+  00x0C0003000002000C: 'Non è stato rilevato il QR code del piano di stampa.'
+
+  00x0500010000020001: 'l’infrastruttura cavi dei dispositivi media non funziona correttamente.'
+  00x0500010000020002: 'La telecamera USB non è connessa.'
+  00x0500010000020003: 'La telecamera USB non funziona correttamente.'
+  00x0500010000030004: 'Spazio insufficente nella SD Card.'
+  00x0500010000030005: 'Errore nella SD Card.'
+  00x0500010000030006: 'SD Card non formattata.'
+  00x0500020000020001: 'Impossibile connettersi a Internet, controllare la connessione di rete.'
+  00x0500020000020005: 'Impossibile connettersi a Internet, controllare la connessione di rete.'
+  00x0500020000020002: 'Impossibile connettersi al dispositivo.'
+  00x0500020000020004: 'Utente Non Autorizzato.'
+  00x0500020000020006: 'Il servizio di Vista dal vivo non funziona correttamente.'
+
+  00x0500030000010001: 'Il modulo MC non funziona correttamente. Riavviare il dispositivo.'
+  00x0500030000010002: 'Il gruppo di estrusione non funziona correttamente. Riavviare il dispositivo.'
+  00x0500030000010003: 'L’AMS non funziona correttamente. Riavviare il dispositivo.'
+  00x050003000001000A: 'Lo stato del sistema è anormale. Ripristinare le impostazioni di fabbrica.'
+  00x050003000001000B: 'Lo schermo non funziona correttamente.'
+  00x050003000002000C: 'Errore Hardware Wireless: Spengere e riaccendere il Wi-Fi o riavviare il dispositivo.'
+  00x0500040000010001: 'Impossibile scaricare il lavoro di stampa. Controllare la connessione di rete.'
+  00x0500040000010002: 'Impossibile leggerer lo stato di stampa. Controllare la connessione di rete.'
+  00x0500040000010003: 'Il contenuto del file di stampa non è leggibile. Inviare nuovamente il lavoro di stampa.'
+  00x0500040000010004: 'Il lavoro di stampa NON è autorizzato.'
+  00x0500040000010006: 'Impossibile riprendere la stampa precedente.'
+  
+  00x0500040000020007: 'La temperatura del piano scaldante supera la temperatura di vetrificazione del filamento e può causare l’intasamento dell’ugello.'
+  00x0700010000010001: 'Il servo motore dell’AMS%s è slittato. La ruota di trascinamento potrebbe essere consumata, oppure il filamento potrebbe essere troppo sottile.'
+  00x0700010000010003: 'Il controllo di coppia del servo motore dell’AMS%s non funziona correttamente. Il sensore di corrente potrebbe essere difettoso.'
+  00x0700010000010004: 'Il controllo della velocità del servo motore dell’AMS%s non funziona correttamente. Il sensore di velocità potrebbe essere difettoso.'
+  00x0700010000020002: 'Il servo motore dell’AMS%s è sovraccarico, il filamento potrebbe essere aggrovigliato o bloccato.'
+  00x0700020000010001: 'Errore di velocità e lunghezza del filamento dell’AMS%s. L’odometria del filamento potrebbe essere difettosa.'
+  00x0700100000010001: 'Il motore dell’AMS%s - Slot%s  è slittato. Il meccanismo di estrusione potrebbe non funzionare correttamente o il filamento potrebbe essere troppo sottile.'
+  00x0700100000010003: 'Il controllo di coppia dell’AMS%s - Slot%s non funziona correttamente. Il sensore di corrente potrebbe essere difettoso.'
+  00x0700100000020002: 'Il motore dell’AMS%s - Slot%s è in sovraccarico.Il filamento potrebbe essere aggrovigliato o bloccato.'
+  00x0700200000020001: 'Il filamento nell’AMS%s - Slot%s è terminato.'
+
+  00x1200200000020001: 'Il filamento nell’AMS%s - Slot%s è terminato.'
+  00x0700200000020002: 'L’AMS%s - Slot%s è vuoto.'
+  00x0700200000020003: 'Il filamento nell’AMS%s - Slot%s potrebbe essersi rotto all’interno dell’AMS.'
+  00x0700200000020004: 'Il filamento nell’AMS%s - Slot%s potrebbe essersi rotto nella testa di stampa.'
+  00x0700200000020005: 'Il filamento nell’AMS%s - Slot%s è finito e lo spurgo è avvenuto in modo anomalo; verificare se il filamento è bloccato nella testa di stampa.'
+  00x0700200000030001: 'Il filamento nell’AMS%s - Slot%s è finito. Attendere mentre il filamento vecchio viene eliminato.'
+  00x0700200000030002: 'Il filamento nell’AMS%s - Slot%s è finito, il sitema è passato automaticamente  ad un altro slot contenente lo stesso filamento.'
+  00x0700400000020001: 'Il segnale del buffer del filamento è andato perso, il cavo o il sensore di posizione potrebbero non funzionare correttamente.'
+  00x0700400000020002: 'Il segnale di posizione del buffer del filamento riporta errori, Il sensore di posizione potrebbe non funzionare correttamente.'
+  00x0700400000020003: 'La comunicazione con l’hub AMS è anomala, il cavo potrebbe non essere ben collegato.'
+  00x0700400000020004: 'Il segnale del buffer di posizione del filamento è anomalo,la molla potrebbe essere bloccata o il filamento potrebbe essere aggrovigliato.'
+
+  00x0700450000020001: 'Il sensore del tagliafilo non funziona correttamente. Il sensore potrebbe essere scollegato o danneggiato.'
+  00x0700450000020002: 'la distanza di taglio del tagliafilo è troppo ampia. Il motore XY potrebbe perdere dei passi.'
+  00x0700450000020003: 'La leva del tagliafilo non è tornata in posizione corretta. La leva o la lama possono essersi bloccate.'
+  00x0700510000030001: 'L’AMS è disattivato; Caricare il filamento dalla postazione esterna.'
+  00x0700500000020001: 'La comunicazione dell’AMS%s è anomala, verificare il cavo di connessione.'
+  00x0700600000020001: 'L’AMS%s - Slot%s è sovraccarico. Il filamento potrebbe essersi aggrovigliato o la bobina potrebbe essere bloccata.'
+  00x1200100000020002: 'Il motore dell’AMS%s - Slot%s è sovraccarico. Il filamento potrebbe essersi aggrovigliato o bloccato.'
+  00x1200800000020001: 'Il filamento nell’AMS%s - Slot%s potrebbe essersi aggrovigliato o bloccato.'
+  00x07FF200000020001: 'Il filamento esterno è terminato, caricare un nuovo filamento.'
+  00x07FF200000020002: 'Non è presente alcun filamento esterno; caricare un nuovo filamento.'
+  00x07FF200000020004: 'Rimuovere il filamento dall’estrusore e riavvolgerlo sulla la bobina.'
+
+  00x12FF200000020007: 'Non è stato possibile controllare la posizione del filamento nella testa di stampa, premere per ulteriori informazioni.'
+  00x1200200000020006: 'Non è stato possibile estrudere il filamento dell’AMS%s - Slot%s, l’estrusore potrebbe essere intasato o il filamento potrebbe essere troppo sottile, generando slittamenti del filamento.'
+  00x1200200000030002: 'Il filamento dell’AMS%s - Slot%s  è terminato, verrà automaticamente utilizzato un altro slot contenente del filamento identico.'
+#NOTIFY END
+
+#CONTROL
+  ctl_top_t_temp_axis: 'Temperature/Movimenti'
+  ctl_top_t_filament: 'Filamento'
+  ctl_t_part: 'Parte'
+  ctl_t_aux: 'Aux'
+  ctl_t_chamber: 'Camera'
+  sw_t_on: 'Occeso'
+  sw_t_off: 'Spento'
+  ctl_t_speed: 'Velocità di stampa'
+  ctl_t_speed_silent: 'Silenzioso'
+  ctl_t_speed_standard: 'Standard'
+  ctl_t_speed_sport: 'Sportivo'
+  ctl_t_speed_ludicrous: 'Vergognosamente smodato' 
+  ctl_t_extruder: 'Estrusore' 
+  ctl_t_temp_high: 'No superiore a %ld℃' 
+  ctl_t_filament_t_tip: 'Suggerimento'
+  ctl_t_filament_tip: 'Per lo slot esterno, prima di premere il tasto "Carica", assicurarsi che il filamento sia ben inserito sino in fondo.'  
+  ctl_t_to_load: 'Per caricare'
+  ctl_t_to_unload: 'Per scaricare'
+  ctl_t_heat_nozzle_temp: 'Scalda il nozzle'
+  ctl_t_push_new_filament: 'Spingere il nuovo filamento nell’estrusore'
+  ctl_t_grab_new_filament: 'Prendere il nuovo filamento'
+  ctl_t_purge_old_filament: 'Eliminare il vecchio filamento'
+  ctl_t_cut_filament: 'Taglio del filamento'
+  ctl_t_back_filament: 'Ritrazione del filamento'
+  content_empty: 'Vuoto'
+  tpu_not_supported: '"%s %s" non supportato dall’AMS.'
+  cf_gf_warning: 'I filamenti "%s %s" sono duri e vetrosi. Si possono rompere o incastrare facilmente nell’AMS; usarli con molta cautela.'
+  pva_warning: 'I filamenti “%s %s” umidi diventano fragili e si incastrano all’interno dell’AMS; fare attenzione a deidratarli prima dell’uso.'
+
+#CONTROL END
+
+#MQTT
+  ctl_t_mqtt_ctl_mode: 'Modalità di controllo'
+  ctl_t_mqtt_statu_master: 'Primaria'
+  ctl_t_mqtt_statu_slave: 'Secondaria'
+  ctl_t_mqtt_status_sync: 'Sync'
+  ctl_t_mqtt_disconected: 'Disconnesso'
+  printer_connecting: 'La stampante si sta collegando.'
+  printer_disconnected: 'La stampante è disconnessa.'
+  printer_connected: 'La stampante è stata collegata correttamente.'
+  mqtt_login_failed: |
+   Impossibile connettersi alla stampante!
+   È possibile che il “Codice di accesso” sia sbagliato. Premere il tasto “Modifica” per verificare e/o modificare il “Codice di accesso”.
+   per risolvere i problemi di connessione, scansionare il codice QR.
+  mqtt_never_connected: |
+   Impossibile connettersi alla stampante!
+   Assicurarsi che la stampante sia accesa e sulla stessa LAN di Panda Touch oppure premere sul tasto “Modifica” per verificare e/o modificare “IP” e “SN”.
+   Per risolvere i problemi di connessione, scansionare il codice QR.
+  mqtt_master_changed: |
+   Impossibile connettersi alla stampante!
+   Assicurarsi che la stampante sia accesa e sulla stessa LAN di Panda Touch oppure premere sul tasto  “Modifica” per verificare e/o modificare “IP” e “SN”.
+   Poiché questa è la stampante “Primaria”, un’altra stampante del Gruppo verrà temporaneamente assegnata come “Primaria”.
+   Se la stampante è stata spenta, ignorare questo messaggio.
+   Per risolvere i problemi di connessione, scansionare il codice QR.
+  mqtt_master_error: |
+   Impossibile connettersi alla stampante!
+   Assicurarsi che la stampante sia accesa e sulla stessa LAN di Panda Touch oppure premere sul tasto “Modifica” per verificare e/o modificare “IP” e “SN”.
+   Poiché questa è la “Primaria” e non ci sono altre stampanti collegate disponibili nel Gruppo, non sarà possibile utilizzare Panda Touch fino a quando il problema non sarà risolto.
+   Per risolvere i problemi di connessione, scansionare il codice QR.
+  mqtt_slave: |
+   Impossibile connettersi alla stampante!
+   Assicurarsi che la stampante sia accesa e sia sulla stessa LAN di Panda Touch oppure premere sul tasto “Modifica” per verificare o/o modificare "IP” e “SN”.
+   Questa stampante non è il “Primaria”, quindi non sarà accessibile o in grado di seguire il “Primaria” se è in un Gruppo.
+   Se la stampante è spenta, ignorare questo messaggio.
+   Per risolvere i problemi di connessione, scansionare il codice QR.
+  mqtt_not_online: |
+   Impossibile connettersi alla stampante!
+   Assicurarsi che la stampante sia accesa e si trovi sulla stessa LAN di Panda Touch.
+   Per risolvere i problemi di connessione, scansionare il codice QR.
+#MQTT END
+
+#FILE
+  file_t_usb_flash_driver: 'Unità Disco USB'
+  file_t_name: 'Nome'
+  file_t_date: 'Data'
+  file_t_size: 'Dimensione'
+  file_s_transmitting: 'Trasmissione'
+  file_s_printers_in_sync: 'Stampanti sincronizzate: %d/%d'
+  file_s_failed: 'Non riuscito'
+  file_s_printing: 'In stampa'
+  file_s_waiting: 'In attesa'
+#FILE END
+
+#GUID
+  guid_t_start: 'Avvio'
+  guid_c_start: 'Attivare lo scheromo originale Bambu lab.'
+  guid_t_get_ip_access: 'Ottenere l’IP e il codice di accesso'
+  guid_c_get_ip_access_wlan: 'Selezionare la WLAN con il D-pad, premere OK per entrare.'
+  guid_c_get_ip_access_enter: 'Immettere i codici IP e di accesso su Panda Touch.'
+  guid_t_get_sn: 'Ottenere il Numero Seriale'
+  guid_c_get_sn_return: 'Premere invio per tornare alle impostazioni.'
+  guid_c_get_sn_enter: 'Select device using D-pad, press OK to enter.'
+  guid_c_get_sn_enter_code: 'Selezionare il dispositivo con il D-pad, premere OK per entrare.'
+  guid_t_completed: |
+   ; )
+   Congratulazioni! Avete completato l'esercitazione su Panda Touch. Provare ora le funzioni reali.
+  guid_c_completed: 'Premere sull’area vuota dello schermo per tornare all’interfaccia di connessione. È possibile aggiungere informazioni sulla stampante per tracciarne lo stato.'
+  sn: 'SN:'
+  guid_unable_find: 'Non si trovano le impostazioni della stampante?'
+  guide_select_lang: 'Selezionare la lingua di Panda Touch'
+  guide_ota_not_finished: 'Il processo di aggiornamento OTA non è ancora terminato' 
+  guide_ota_remind: |
+   Utilizzare un computer sulla stessa rete Wi-Fi, che può essere un computer o un dispositivo mobile con un sistema operativo come iOS o Android. Di seguito indicato come “computer”.
+    - Inserire l’indirizzo IP di Panda Touch nel browser del computer per accedere all’interfaccia web, quindi premere sul pulsante “Aggiorna file”.  
+    - Premere sul pulsante “Scegli file” e selezionare il file .img scaricato.
+    - L’aggiornamento di Panda Touch verrà avviato automaticamente.
+  guid_ota_connect_wifi: 'Collegarsi a Internet selezionando la rete Wi-Fi sulla destra e inserendo la password. Se la rete a cui ci si vuole connettere non appare, premere sul pulsante Aggiorna.'
+#GUID END
+
+#CLOUD START
+  tip_about_region: 'Selezionare la Nazione prima di effettuare il Login; la Nazione deve corrispondere a quella del proprio Account BambuLab.' 
+  tip_del_account: 'È necessario eliminare l’Account? PandaTouch convertirà la stampante collegata a questo Account in modalità locale.'
+  tip_input_phone: 'Inserire il proprio numero di telefono.' 
+  tip_input_email: 'Inserire il proprio indirizzo email.' 
+  t_region: 'Regione:'
+  t_account: 'Account:'
+  t_password: 'Codice:'
+  t_region_china: 'Cina'
+  t_region_global: 'Resto del Mondo'
+  tip_phone_incorrect: 'Inserire un numero telefonico valido' 
+  tip_email_incorrect: 'Inserire una email valida' 
+  tip_account_not_reg: 'Login non riuscito, questo account non è registrato.'
+  tip_password_incorrect: 'Login non riuscito, verificare la password.'
+  tip_network_error: 'Login non riuscito, verificare la rete.'
+  tip_login_ok: |
+   Accesso al cloud riuscito!
+   
+   Si desidera convertire tutte le stampanti esistenti in modalità Cloud? Selezionare "Si" solo se non si utilizzano stampanti in “modalità LAN”. Se si utilizzano stampanti in “modalità LAN”, aggiungere manualmente ogni stampante al Cloud modificandone le relative impostazioni.
+  tip_account_sync_ok: 'Le stampanti sono state convertite alla modalità Cloud. È possibile verificare lo stato attuale di ciascuna stampante nella pagina dei multi-dispositivi.'
+  tip_account_sync_error: 'Non è stato possibile convertire alcune delle stampanti in modalità Cloud. Controllare le impostazioni del Wi-Fi e della modalità Cloud, quindi riprovare.'
+  tip_account_sync_zero: 'Non ci sono stampanti Cloud sull’account corrente. Aggiungere una stampante a questo account ed effettuare nuovamente il Login.'
+  tip_printer_without_cloud: 'Questa stampante non è stata associata a questo account. Prima di abilitare il Cloud, aggiungere la stampante utilizzando BambuLab Studio o Bambu Handy.'
+  tip_printer_login_account: 'Accedere prima a un account.'
+  tip_account_error: 'Sono stati riscontrati dei problemi di accesso sull’Account. Verificare la correttezza dei dati immessi sul proprio Account. Inoltre, verificate che la Nazione del proprio Account corrisponda alla posizione attuale.'
+  tip_account_network_error: 'Sono stati riscontrati dei problemi durante il collegamento di rete. Verificare che la password di rete sia corretta e provare a riconnettersi per ripristinare la connessione Cloud della stampante.'
+  t_login_bambu: 'Accesso all’Account BambuLab'
+  tip_convert_to_cloud: 'Conversione delle stampanti in modalità Cloud in corso. Attendere prego...'
+  t_enable_could: 'Abilita Cloud'
+  tip_wifi_not_connected: 'La connessione Wi-Fi è assente, connettersi prima alla rete Wi-Fi.'
+  tip_printer_work_in_cloud: 'La stampante è in modalità Cloud.'
+  tip_printer_work_in_local: 'La stampante è in modalità LAN.'
+  tip_ftp_ip_invalid: |
+   Assicurarsi che la stampante sia sulla stessa LAN di Panda Touch.
+   Controllare e inserire nuovamente l’“IP” e/o il “Codice di accesso”.
+  tip_ftp_not_find: 'File non trovato.'
+  tip_group_printer_cloud_mode: 'La stampante %d: %s è in modalità Cloud.' 
+  tip_group_printer_local_mode: 'La stampante %d: %s è in modalità LAN.' 
+  tip_group_work_in_cloud: 'Il Gruppo di stampanti è in modalità Cloud.'
+  tip_group_work_in_local: 'Il Gruppo di stampanti è in modalità LAN.' 
+#CLOUD END
+
+#NEW ADD
+  tip_printer_group_max: 'Panda Touch supporta attualmente solo il Gruppo di stampanti %d.'
+  tip_one_master_at_least: 'È necessario avere almeno una stampante Principale nel Gruppo.'
+  tip_one_select_at_least: |
+   Nel Gruppo è necessario avere almeno una stampante Principale.
+   Se si desidera rimuovere il Gruppo, è possibile premere sul pulsante Indietro e poi rimuoverlo con il pulsante Elimina.
+  tip_remove_group_confirm: 'Confermare che si desidera rimuovere questo Gruppo di stampanti da Panda Touch.'
+  tip_group_same_name: 'Esiste già un Gruppo con quel nome, è necessario rinominare il nuovo Gruppo.'
+  tip_printer_in_group: 'La stampante è stata selezionata nel Gruppo, si prega di rimuoverla dal Gruppo.'
+  tip_reprint_group_printer: 'In questo modo il file verrà ristampato solo su questa stampante. Se si desidera avviare la stampa su tutte le stampanti del Gruppo, attendere che tutte le stampanti siano pronte e utilizzare il normale processo per avviare la stampa.'
+  tip_reprint_printer: 'Si vuole ristampare il file su questa stampante?'
+  tip_waiting_print_finished: 'Interrompere l’attività di stampa in corso prima di avviarne una nuova.'
+  tip_group_connected: 'Il Gruppo di stampanti si è collegato correttamente.'
+  tip_group_printer_disconnected: 'La stampante %d:%s è disconnessa.'  
+  tip_group_printer_connecting: 'La stampante %d:%s si sta connettendo.'
+  tip_group_printer_printing: 'La stampante %d:%s sta stampando.'
+  tip_group_printer_temp_too_high: 'La stampante %d：%s %d ℃.'
+  tip_group_printer_file_config: 'Si desidera stampare il file %s? Selezionare la funzione di stampa da abilitare.'
+  tip_group_power_off: 'Si desidera spegnere le stampanti di questo Gruppo?'
+  tip_group_reset_power_usage: 'Si desidera resettare il dato di utilizzo di energia dalle stampanti con Panda PWR legate a questo Gruppo?'
+  tip_group_power_off_not_online: 'Una stampante del Gruppo è stata scollegata. Confermare se si desidera continuare e spegnere la stampante.'
+  tip_group_printing_not_idle: 'In questo Gruppo stanno stampando alcune stampanti. Lo spengimento della stampante potrebbe causare un blocco. Sarebbe meglio attendere che il nozzle si raffreddi prima di spengere la stampante. Si desidera continuare comunque adesso?'
+  tip_group_temp_too_high_confirm: 'Alcune stampanti del Gruppo hanno una temperatura dell’HotEnd superiore a 50 gradi. Lo spengimento a caldo della stampante potrebbe causare dei blocchi. Attendere che il nozzle si raffreddi prima di spengere la stampante. Si desidera continuare comunque adesso?'
+  t_is_printing: 'In stampa'
+  t_is_idle: 'A riposo'
+  tip_enter_group_name: 'Inserire il Nome del Gruppo:'
+  tip_move_confirm: 'Il Gruppo di stampanti è attualmente in fase di stampa e non può essere spostato.' 
+  tip_always_sleep: 'Questa operazione danneggia lo schermo. Volete comunque continuare?' 
+  tip_bind_power: | 
+   Tenere premuto il pulsante Panda PWR finché la luce blu non inizia a lampeggiare, 
+   quindi posizionare il Panda Touch contro l'involucro del Panda PWR per collegarlo.
+  tip_remove_keep_one: 'Tenere almeno una stampante.'
+  tip_remove_printer_with_power: 'Questa stampante è connessa con Panda PWR. Si desidera scollegarla?'
+  tip_about_power: |
+   Panda PWR
+   Spegnimento automatico, monitoraggio dell'alimentazione in tempo reale, doppia interfaccia USB-A di cui una programmabile, scansionare il codice QR per ulteriori informazioni.
+  tip_power_off_not_online_confirm: 'La stampante è stata scollegata, confermare se si desidera spengere la stampante?'
+  tip_power_off_temp_too_high_confirm: 'La temperatura dell’HotEnd è superiore a 50 gradi. Lo spengimento a caldo della stampante potrebbe causare dei blocchi di funzionamento. Attendere che il nozzle si raffreddi prima di spengere la stampante. Si desidera continuare comunque adesso?'
+  tip_power_off_confirm: 'ATTENZIONE!!! Si conferma di voler spengere definitivamente la stampante?'
+  tip_auto_power_off_confirm: 'La stampante si spengerà non appena la stampa sarà ultimata ed il nozzle avrà raggiunto una temperatura inferiore ai 50C.'
+  t_auto_power_off: 'Auto Spengimento:'
+  t_min: 'Min'
+  t_countdown: 'Spengo tra:' 
+  t_power: 'Power'
+  tip_know_power: 'Cos’è Panda PWR'
+  tip_add_power: 'Aggiungi Panda PWR'
+  t_voltage: 'Tensione:'
+  t_current: 'Corrente:'
+  t_power_2: 'Potenza:'
+  t_power_usage: 'Energia Usata:'
+  t_printer: 'Stampante-Primaria:'
+  t_power_wifi: 'Wi-Fi SSID:'
+  t_power_usb_follow: 'La porta USB-1 si attiva con la luce della stampante:'
+  t_usb_config_off: 'Spento'
+  t_usb_config_on: 'Acceso' 
+  t_must_high: 'Il valore inserito deve essere maggiore di %ld' 
+  t_must_less: 'Il valore inserito deve essere minore di %ld'
+  t_power_printer_no: 'No.' 
+  tip_confirm_bind_power: 'Accettare la connessione con Panda PWR?' 
+  tip_confirm_unbind_power: 'Si desidera disconnettersi da Panda PWR?' 
+  t_reset_power_usage: | 
+   Azzera
+   Utilizzo 
+  t_reset_power_usage_print: 'Azzera dati' 
+  tip_confirm_reset_power_usage: 'Si desidera azzerare il contatore dell’energia usata?' 
+  t_auto_off: 'Auto spengimento'
+  t_power_off_all: 'Si desidera Spengere TUTTE le stampanti connesse a Panda PWR  nel Gruppo?'
+  t_pwr_has_been_bind: 'Questo Panda PWR è collegato alla Stampante %s , è necessario scollegarlo prima di procedere.'
+  tip_pwr_max: 'Panda Touch attualmente supporta il collegamento di un massimo di %d Panda PWR.'
+  t_power_off_after_printing: 'Auto Spengimento'
+  tip_change_reboot: 'Per una migliore e veloce esperienza di utilizzo è necessario riavviare lo schermo, continue?'
+  t_multi_print_heat_delay: 'Ritardo termico per stampa multipla'
+  t_file_t_history: 'Cronologia di stampa'
+  t_history_cost_time: 'Costo orario'
+  t_history_weight: 'Peso'
+  t_history_only_cloud: 'Supporto solo per la modalità Cloud'
+  t_history_not_find: 'Non trovato'
+  t_default_directory: 'Directory-Predefinita-Stampante' 
+  t_reboot_take_effect: 'È necessario riavviare lo schermo, continuare?' 
+  t_send_code: 'Invia il Codice' 
+  tip_send_code: 'Inserisci il Codice' 
+  tip_error_code_length: 'La lunghezza del codice dovrebbe essere 6' 
+  tip_error_code: 'Il Codice è inesistente o non più valido; richiedere un nuovo codice di verifica.' 
+  tip_error_send_code: 'L’invio del Codice non è riuscito, si prega di controllare la connessione ad Internet.' 
+  tip_loading_thumbnail: 'Caricamento dei dati dalla stampante. Attendere prego...' 
+  t_sd_enhanced_load_thumbnails: 'Visualizzazione migliorata delle miniature'  
+  tip_enhanced_load_effect: 'Avviare la stampa da una chiavetta USB o premere sul pannello della Scheda SD comporterà un caricamento più lungo e avrà effetto solo dopo aver riavviato; Continuare?' 
+  tip_not_higher: 'Non superiore a %d.' 
+  tip_dry_step1: '#%x Passo1:# Rimuovere tutto ciò che si trova sotto o sopra il piatto per evitare collisioni; rimuovere il filamento dalla testa di stampa per evitare il rischio di intasamento.'
+  tip_dry_step2: '#%x Passo2:# Cliccare sul pulsante “Prepara” per spostare la testa dell’utensile e il piano nella posizione predefinita.' 
+  tip_dry_step3: '#%x Passo3:# Posizionare il filamento sul piano come mostrato in figura. (La chiusura di tutti gli sportelli garantisce un migliore effetto di deidratazione).' 
+  tip_dry_step4: '#%x Passo4:# Selezionare il tipo di filamento, impostare la temperatura del piano e il tempo di deidratazione, quindi fare clic sul pulsante “Avvia Deidratazione”. Nota: Capovolgere il filamento a metà del ciclo di deidratazione garantisce un migliore risultato.' 
+  tip_dry_completed: 'Deidratazione completata.' 
+  tip_dry_not_support: 'Funzione non supportata su A1, A1-mini' 
+  tip_dry_printer_printing: 'La stampante è in fase di stampa.'
+  tip_skip_obj_selected: '#ff0000 %d# è selezionato'
+  tip_dry_ing: 'Deidratazione'
+  tip_dry_prepare_ok: 'Prima di fare clic su Avvio, verificare che la testa di stampa sia tornata nella posizione predefinita.'
+#NEW ADD END

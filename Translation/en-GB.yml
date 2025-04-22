@@ -60,9 +60,10 @@ en-GB:
   btn_goto_wifi: 'Go to Wi-Fi network'
   btn_ignore: 'Ignore'
   btn_goto_login: 'Go to Login page'
-  btn_dry: 'dry'
-  btn_dry_prepare: 'Preparare'
+  btn_dry: 'Drying'
+  btn_dry_prepare: 'Prepare'
   btn_dry_start: 'Start dry'
+  btn_skip_obj: 'Skip'
 #BUTTONS END
 
   set_net_wifi_scaned: 'Scanned WiFi'
@@ -560,4 +561,15 @@ en-GB:
   tip_loading_thumbnail: 'Loading data from printer. Please wait a second.' 
   t_sd_enhanced_load_thumbnails: 'Enhanced thumbnail display'  
   tip_enhanced_load_effect: 'start printing from USB stick or click sd-card panel will cause a long delay and it will takes effect after reboot, continue?' 
+  tip_not_higher: 'Not higher than %d.' 
+  tip_dry_step1: '#%x Step1:# Remove anything that may be under or above the hotbed to avoid collisions with the hotbed, and remove filament from the tool head to avoid risk of clogging.' 
+  tip_dry_step2: '#%x Step2:# Click the "Prepare" button to move the tool head and hot bed to the preset position.' 
+  tip_dry_step3: '#%x Step3:# Place the filament on the hot bed as shown in the figure. (Closing the lid ensures better drying effect, the lid can be printed by PC or boxed).' 
+  tip_dry_step4: '#%x Step4:# Select the filament type, set the hot bed temperature and drying time, and click the "Start" button. (Flip the filament halfway through drying ensures better drying effect.)' 
+  tip_dry_completed: 'Drying completed.' 
+  tip_dry_not_support: 'Not support for A1, A1-mini.' 
+  tip_dry_printer_printing: 'The printer is printing.'
+  tip_skip_obj_selected: '#ff0000 %d# objects is selected'
+  tip_dry_ing: 'Drying'
+  tip_dry_prepare_ok: 'Ready, please check if the printer tool head has returned to the preset position before clicking start.'
 #NEW ADD END
