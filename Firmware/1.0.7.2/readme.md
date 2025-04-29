@@ -1,5 +1,11 @@
 ## Fixed BUGS
-* 1 can not reprint by history when use plate_2 、 plate_3 、plate_4. 
+### add v1.0.7.2
+* 1 fixed bug
+  * 1.1 crash when download thumbnails from history(cause by 2M or 3M jpg file)
+* 2 new feature
+  * 2.1 custom filament
+  * 2.2 can reprint with custom filament
+
 
 ## Please use "download raw file"
 

@@ -328,7 +328,7 @@ it-IT:
   ctl_t_part: 'Parte'
   ctl_t_aux: 'Aux'
   ctl_t_chamber: 'Camera'
-  sw_t_on: 'Occeso'
+  sw_t_on: 'Acceso'
   sw_t_off: 'Spento'
   ctl_t_speed: 'Velocità di stampa'
   ctl_t_speed_silent: 'Silenzioso'
