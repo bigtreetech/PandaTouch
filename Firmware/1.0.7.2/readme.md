@@ -1,11 +1,13 @@
 ## Fixed BUGS
 ### add v1.0.7.2
 * 1 fixed bug
-  * 1.1 crash when download thumbnails from history(cause by 2M or 3M jpg file)
+  * crash when download thumbnails from history
 * 2 new feature
-  * 2.1 custom filament
-  * 2.2 can reprint with custom filament
-
+  * custom filament
+  * reprint with custom filament
+* 3 modify backlight
+  * minimum  is 1% and maximum  is 80%.
+  * set the backlight to 1% when power-on and set the backlight to normal after 8 seconds.
 
 ## Please use "download raw file"
 
