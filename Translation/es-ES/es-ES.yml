@@ -62,11 +62,11 @@ es-ES:
   btn_dry: 'Secado'
   btn_dry_prepare: 'Preparar'
   btn_dry_start: 'Comenzar'
-  btn_skip_obj: 'Skip'
+  btn_skip_obj: 'Omitir'
 #BUTTONS END
 
   set_net_wifi_scaned: 'WiFi Escaneados'
-  welcome_tip: 'Por favor, conéctese a Internet seleccionando la red WiFi de la derecha e introduciendo la contraseña. Pulse actualizar si no ve la red deseada. Pulse siguiente cuando se haya conectado a la red deseada.'
+  welcome_tip: 'Por favor, conéctese a Internet seleccionando la red WiFi de la derecha e introduciendo la contraseña. Oprima actualizar si no ve la red deseada. Oprima siguiente cuando se haya conectado a la red deseada.'
   tip_scan_qrcode: 'Por favor, utilice su teléfono para escanear el código QR y acceder al manual online.'
   loading: 'Cargando...'
   top_wifi_connect: 'Conectando a WiFi %s'
@@ -121,18 +121,18 @@ es-ES:
 #PRINT  
 #TIPS  
   tip_input_optional: '(Opcional)'
-  tip_input_name: '(Obligatorio)Introduzca el nombre de tu impresora'
-  tip_input_ip: '(Obligatorio)Introduzca la IP de tu impresora'
-  tip_input_acescd: '(Requerido)Introduzca tu código de acceso'
-  tip_input_sn: '(Requerido)Introduzca el SN'
+  tip_input_name: '(Obligatorio)Ingrese el nombre de tu impresora'
+  tip_input_ip: '(Obligatorio)Ingrese la IP de tu impresora'
+  tip_input_acescd: '(Requerido)Ingrese su código de acceso'
+  tip_input_sn: '(Requerido)Ingrese el SN'
   pop_tip_add_dev: 'Por favor, confirme que quiere añadir esta conexión de impresora a Panda Touch'
   pop_tip_restart: 'Por favor, confirme que quiere reiniciar el Panda Touch'
-  pop_tip_input_password: 'Introduzca la contraseña'
+  pop_tip_input_password: 'Ingrese la contraseña'
   pop_tip_factory: 'Por favor, confirme que quiere restaurar la configuración de fábrica. El Panda Touch olvidará la configuración WiFi y todas las impresoras añadidas. Se realizará un reinicio una vez hecho.'
   new_tip_get_info: 'Cómo obtener la IP, el Código de Acceso y el Código SN.'
   pop_tip_print_abort: 'Por favor, confirme si desea abortar las tareas de carga e impresión actuales y posteriores.'
   tip_not_insert_sdcard: 'Tarjeta MicroSD no insertada en la impresora.'
-  tip_not_insert_usb_flash: 'Unidad Flash USB no insertada.'
+  tip_not_insert_usb_flash: 'Memoria USB no insertada.'
   tip_not_select_print: 'No hay ninguna impresora seleccionada, por favor seleccione al menos una impresora para empezar a imprimir.'
   tip_remove_refuse: 'Sólo se pueden eliminar impresoras "Desconectadas". Por favor, ponga esta impresora en "Desconectada" antes de borrarla.'
   tip_remove_confirm: 'Por favor, confirme que desea eliminar esta impresora del Panda Touch.'
@@ -144,7 +144,7 @@ es-ES:
   tip_faild_upload: |
     No se ha podido cargar el archivo, compruebe lo siguiente: 
     1. ¿La impresora está conectada correctamente con una tarjeta SD y la tarjeta SD tiene suficiente capacidad? 
-    2. Asegúrese de que la unidad USB está bien conectada a la Panda Touch.
+    2. Asegúrese de que la memoria USB está bien conectada a la Panda Touch.
     3. Desplácese a un lugar con mejor señal WiFi. 
     4. Cuando esté en modo nube, compruebe y reedite la "IP" o el "Código de acceso".
   tip_wifi_disconnected: 'Se ha perdido la conexión WiFi. Por favor, asegúrese de que está en una zona con suficiente intensidad de señal.'
@@ -158,7 +158,7 @@ es-ES:
   tip_parsing_gcode: 'Hubo un problema parseando gcode.3mf. Por favor, vuelva a enviar el trabajo de impresión.'
   tip_nozzle_temp_malf: 'Temperatura anormal de la boquilla'
   tip_front_cover: 'La impresión se ha pausado porque la cubierta frontal del cabezal se ha caído. Por favor, vuelva a montarla y haga clic en el icono de reanudación para reanudar el trabajo de impresión.'
-  tip_filament_runout: 'Se ha acabado el filamento. Por favor, cargue nuevo filamento en "Filamento" y pulse "Reanudar" para reanudar el trabajo de impresión.'
+  tip_filament_runout: 'Se ha acabado el filamento. Por favor, cargue nuevo filamento en "Filamento" y oprima "Reanudar" para reanudar el trabajo de impresión.'
   tip_pause_print: '¿Está seguro de que desea pausar la impresión en curso?'
   tip_stop_print: 'Una vez que detenga una impresión, no podrá reanudarla. ¿Está seguro de que desea detener la impresión en curso?'
   tip_ams_runout: 'El filamento AMS se ha agotado. Por favor, inserte un nuevo filamento en el AMS y haga clic en el botón "Reintentar".'
@@ -313,7 +313,7 @@ es-ES:
 
   00x12FF200000020007: 'Fallo al comprobar la ubicación del filamento en el cabezal, por favor haga clic para obtener más ayuda.'
   00x1200200000020006: 'Fallo al extruir filamento AMS%s Ranura%s, el extrusor puede estar obstruido, o el filamento puede ser demasiado fino, causando el deslizamiento en el extrusor.'
-  00x1200200000030002: 'AMS%s Ranura%s filament has run out and automatically switched to the Ranura with the same filament.'
+  00x1200200000030002: 'La ranura%s del AMS%s se le agoto el filamento y se cambio automaticamente a la ranura con el mismo filamento.'
 #NOTIFY END
 
 #CONTROL
@@ -332,7 +332,7 @@ es-ES:
   ctl_t_extruder: 'Extrusor'
   ctl_t_temp_high: 'No superior a %ld℃'
   ctl_t_filament_t_tip: 'Consejos'
-  ctl_t_filament_tip: 'Antes de cargar, por favor asegúrese de que su filamento sale en el cabezal.'
+  ctl_t_filament_tip: 'Antes de cargar, por favor asegúrese que su filamento sale en el cabezal.'
   ctl_t_to_load: 'Para cargar'
   ctl_t_to_unload: 'Para descargar'
   ctl_t_heat_nozzle_temp: 'Calentar la boquilla'
@@ -386,7 +386,7 @@ es-ES:
 #MQTT END
 
 #FILE
-  file_t_usb_flash_driver: 'Unidad flash USB'
+  file_t_usb_flash_driver: 'Memoria USB'
   file_t_name: 'Nombre'
   file_t_date: 'Fecha'
   file_t_size: 'Tamaño'
@@ -401,12 +401,12 @@ es-ES:
   guid_t_start: 'Iniciar'
   guid_c_start: 'Activar la pantalla original del laboratorio Bambu'
   guid_t_get_ip_access: 'Obtener IP y código de acceso'
-  guid_c_get_ip_access_wlan: 'Seleccione WLAN utilizando el teclado D, pulse OK para entrar.'
-  guid_c_get_ip_access_enter: 'Enter the IP and Access codes into the corresponding Panda Touch input boxes.'
+  guid_c_get_ip_access_wlan: 'Seleccione WLAN utilizando el teclado D, oprima OK para entrar.'
+  guid_c_get_ip_access_enter: 'Ingrese la IP y el código de acceso en los campos correspondientes del Panda Touch.'
   guid_t_get_sn: 'Obtener código SN'
-  guid_c_get_sn_return: 'Pulse volver a la configuración.'
-  guid_c_get_sn_enter: 'Seleccione el dispositivo utilizando el teclado D, pulse OK para entrar.'
-  guid_c_get_sn_enter_code: 'Este es el código SN, introdúzcalo en el cuadro de entrada correspondiente en Panda Touch.'
+  guid_c_get_sn_return: 'Oprima volver a la configuración.'
+  guid_c_get_sn_enter: 'Seleccione el dispositivo utilizando el teclado D, oprima OK para entrar.'
+  guid_c_get_sn_enter_code: 'Este es el código SN, introdúzcalo en los campos correspondientes del Panda Touch.'
   guid_t_completed: |
     ; ) ¡Enhorabuena! Ha completado el tutorial de Panda Touch. Pruebe las funciones. 
   guid_c_completed: 'Haga clic en el área en blanco de la pantalla para volver a la interfaz de conexión. Puede añadir información de la impresora para realizar un seguimiento del estado.'
@@ -416,7 +416,7 @@ es-ES:
   guide_ota_not_finished: 'La OTA aún no ha finalizado'
   guide_ota_remind: |
     Utilice un ordenador en la misma red WiFi, que puede ser un ordenador o un dispositivo móvil que ejecute un sistema operativo como iOS o Android. 
-     • Introduzca la dirección IP de Panda Touch en el navegador del ordenador para acceder a la interfaz web y, a continuación, haz clic en el botón "Actualizar archivo".  
+     • Ingrese la dirección IP de Panda Touch en el navegador del ordenador para acceder a la interfaz web y, a continuación, haz clic en el botón "Actualizar archivo".  
      • Haga clic en el botón "Elegir archivo" y, a continuación, seleccione el archivo .img descargado. 
      • Panda Touch comenzará a actualizarse automáticamente. 
   guid_ota_connect_wifi: 'Conéctese a Internet seleccionando la red WiFi de la derecha e introduciendo la contraseña. Si la red a la que desea conectarse no aparece, haga clic en el botón Actualizar.'
@@ -425,15 +425,15 @@ es-ES:
 #CLOUD START
   tip_about_region: 'Por favor, seleccione la región antes de iniciar sesión, la región debe ser la misma que la región de su cuenta.'
   tip_del_account: '¿Necesita borrar la cuenta? PandaTouch convertirá la impresora vinculada a esta cuenta a modo local'
-  tip_input_phone: 'Por favor, introduzca su número de teléfono'
-  tip_input_email: 'Por favor, introduzca su dirección de correo electrónico'
+  tip_input_phone: 'Por favor, ingrese su número de teléfono'
+  tip_input_email: 'Por favor, ingrese su dirección de correo electrónico'
   t_region: 'Región:'
   t_account: 'Cuenta:'
   t_password: 'Contraseña:'
   t_region_china: 'CHINA'
   t_region_global: 'GLOBAL'
-  tip_phone_incorrect: 'Introduzca un número de teléfono válido'
-  tip_email_incorrect: 'Introduzca un correo electrónico válido'
+  tip_phone_incorrect: 'Ingrese un número de teléfono válido'
+  tip_email_incorrect: 'Ingrese un correo electrónico válido'
   tip_account_not_reg: 'Error al iniciar sesión, esta cuenta no está registrada.'
   tip_password_incorrect: 'Error al iniciar sesión, compruebe la contraseña.'
   tip_network_error: 'Error al iniciar sesión, compruebe la red.'
@@ -489,7 +489,7 @@ es-ES:
   tip_group_temp_too_high_confirm: 'Hay algunas impresoras en el grupo con una temperatura del hotend superior a 50 grados. Apagar la impresora puede causar un bloqueo. Por favor, espere a que el hotend se enfríe antes de apagar la impresora. ¿Desea continuar?'
   t_is_printing: 'Imprimiendo'
   t_is_idle: 'Inactivo'
-  tip_enter_group_name: 'Por favor, introduzca un nombre de grupo:'
+  tip_enter_group_name: 'Por favor, ingrese un nombre de grupo:'
   tip_move_confirm: 'La impresora/grupo de impresoras está imprimiendo actualmente y no se puede mover.'
   tip_always_sleep: 'Esta operación dañará la pantalla. ¿Desea continuar?'
   tip_bind_power: |
@@ -502,10 +502,10 @@ es-ES:
   tip_power_off_temp_too_high_confirm: 'La temperatura del hotend es mayor de 50C. Apagar la impresora puede causar un bloqueo. Por favor, espere a que el hotend se enfríe antes de apagar la impresora. ¿Quiere continuar?'
   tip_power_off_confirm: 'Por favor confirme si quiere apagar la impresora'
   tip_auto_power_off_confirm: 'Su impresora se apagará una vez que la impresión esté completa y el hotend se enfríe por debajo de 50C.'
-  t_auto_power_off: 'Auto Apagado:'
+  t_auto_power_off: 'Apagado automatico:'
   t_min: 'Min'
-  t_countdown: 'Cuenta atrás:'
-  t_power: 'Power'
+  t_countdown: 'Cuenta regresiva:'
+  t_power: 'Apagado'
   tip_know_power: 'Qué es el Panda PWR'
   tip_add_power: 'Añadir Panda PWR'
   t_voltage: 'Tensión:'
@@ -542,22 +542,22 @@ es-ES:
   t_default_directory: 'Carpeta por defecto Ftps'
   t_reboot_take_effect: 'Es necesario reiniciar para que surta efecto, ¿Desea continuar?'
   t_send_code: 'Enviar código'
-  tip_send_code: 'contraseña'
+  tip_send_code: 'Contraseña'
   tip_error_code_length: 'Longitud 6'
   tip_error_code: 'Contraseña no existe o ha caducado; solicite un nuevo código de verificación.'
   tip_error_send_code: 'Enviar Contraseña falló por favor revise el internet.'
   tip_loading_thumbnail: 'La comunicación con la impresora está ocupada en este momento. Por favor, espere un segundo.'
-  t_sd_enhanced_load_thumbnails: 'Enhanced thumbnail display'
-  tip_enhanced_load_effect: 'start printing from USB stick or click sd-card panel will cause a long delay and it will takes effect after reboot, continue?'
-  tip_not_higher: 'Not higher than %d.' 
-  tip_dry_step1: '#%x Step1:# Remove anything that may be under or above the hotbed to avoid collisions with the hotbed, and remove filament from the tool head to avoid risk of clogging.' 
-  tip_dry_step2: '#%x Step2:# Click the "Prepare" button to move the tool head and hot bed to the preset position.' 
-  tip_dry_step3: '#%x Step3:# Place the filament on the hot bed as shown in the figure. (Closing the lid ensures better drying effect, the lid can be printed by PC or boxed).' 
-  tip_dry_step4: '#%x Step4:# Select the filament type, set the hot bed temperature and drying time, and click the "Start" button. (Flip the filament halfway through drying ensures better drying effect.)' 
-  tip_dry_completed: 'Drying completed.' 
-  tip_dry_not_support: 'Not support for A1, A1-mini, P1P.' 
-  tip_dry_printer_printing: 'The printer is printing.'
-  tip_skip_obj_selected: '#ff0000 %d# objects is selected'
-  tip_dry_ing: 'Drying'
-  tip_dry_prepare_ok: 'Ready, please check if the printer tool head has returned to the preset position before clicking start.'
+  t_sd_enhanced_load_thumbnails: 'Visualización mejorada de miniaturas.'
+  tip_enhanced_load_effect: 'Imprimir desde una memoria USB o oprimir el panel de la tarjeta SD, producirá un retraso considerable y el cambio no surtirá efecto hasta que se reinicie el sistema. ¿Deseas continuar?.'
+  tip_not_higher: 'No superior a %d.' 
+  tip_dry_step1: '#%x Paso1:# Retirar cualquier objeto que pueda encontrarse debajo o encima de la cama caliente para evitar colisiones con ella, y retirar el filamento del cabezal de impresión para evitar el riesgo de atascos.' 
+  tip_dry_step2: '#%x Paso2:# Oprima el boton de "Preparar" para mover el cabezal y la cama caliente a la posicion preestablecida.' 
+  tip_dry_step3: '#%x Paso3:# Coloca el filamento sobre la cama caliente tal y como se muestra en la imagen. (Cerrar la tapa garantiza un mejor secado; la tapa se puede imprimir en 3D o adquirir ya fabricada).' 
+  tip_dry_step4: '#%x Paso4:# Escoja el tipo de filamento, ajuste la temperatura de la cama caliente y el tiempo de secado, y oprima el botón de "Iniciar". (Gire el filamento a mitad del proceso de secado para garantizar un mejor resultado.)' 
+  tip_dry_completed: 'Secado completado.' 
+  tip_dry_not_support: 'No compatible con A1, A1-mini, P1P.' 
+  tip_dry_printer_printing: 'La impresora está imprimiendo.'
+  tip_skip_obj_selected: '#ff0000 %d# objetos seleccionados'
+  tip_dry_ing: 'Secando.'
+  tip_dry_prepare_ok: 'Listo, compruebe que el cabezal de la impresora regreso a la posición preestablecida antes de oprimir en Iniciar.'
 #NEW ADD END
