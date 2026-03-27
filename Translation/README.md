@@ -32,3 +32,13 @@ If you struggle to use the git forking workflow but would still like to contribu
 As we make product updates, it is likely that more fields will become available for translation. Those fields will appear as English in the updated files until they receive a translation update.
 
 Thanks to all those who contribute translations.
+
+## Install custom languaje
+1. Select the language you want add to the Panda Touch. Make sure the language is available in this repo.
+2. Check whether the language is a beta version (.yml) or a final version (.img). If it is a beta version, use the [online tool](https://ptimgtool.bttwiki.com) for convert the file to .img.
+3. Find the IP address of the Panda Touch from the "Network" menu.
+4. Enter the Panda Touch's IP address in the computer's browser to access the web UI, and then click "Update File" button.
+5. Click the "Choose File" button, then select the downloaded language file (.img). The Panda Touch will automatically start updating.
+6. Enter Panda Touch's language from the "General" menu.
+7. Finally, select the added language.
+
