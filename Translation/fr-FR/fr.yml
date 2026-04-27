@@ -536,7 +536,7 @@ fr-FR:
   tip_confirm_unbind_power: 'Voulez-vous vous dissocier de Panda PWR?'
   t_reset_power_usage: |
     RST
-     Usage 
+    Usage 
   t_reset_power_usage_print: 'Utilisation de RST'
   tip_confirm_reset_power_usage: 'Voulez-vous réinitialiser la consommation d’énergie?'
   t_auto_off: 'Arrêt automatique'
@@ -561,7 +561,6 @@ fr-FR:
   tip_loading_thumbnail: 'Chargement des données depuis l imprimante. Veuillez patienter une seconde.'
   t_sd_enhanced_load_thumbnails: 'Affichage amélioré des vignettes'
   tip_enhanced_load_effect: 'démarrer l impression à partir d une clé USB ou cliquer sur le panneau de la carte SD entraînera un long délai et prendra effet après le redémarrage, continuer?'
-#NEW ADD END
   tip_not_higher: 'Pas plus haut que %d.' 
   tip_dry_step1: '#%x Step1:# Retirez tout objet se trouvant au-dessus ou en dessous du plateau chauffant afin d éviter les collisions, et retirez le filament de la tête d impression pour éviter tout risque de bouchage..' 
   tip_dry_step2: '#%x Step2:#Cliquez sur le bouton « Préparer » pour déplacer la tête d outil et le plateau chauffant vers la position prédéfinie. ' 
