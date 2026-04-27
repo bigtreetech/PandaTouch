@@ -1,4 +1,4 @@
-French:
+fr-FR:
 #SETTING PAGE
   lang_name_t: 'French'
 
@@ -10,6 +10,7 @@ French:
   min_time_t_15: '15min'
   min_time_t_60: '60min'
   sleep_time_t_always: 'Toujours allumé'
+
   setting_gen_t: 'Général'
   setting_net_t: 'Réseau'
   setting_gen_t_dev: 'Appareil:'
@@ -62,6 +63,7 @@ French:
   btn_dry: 'Séchage'
   btn_dry_prepare: 'Préparer'
   btn_dry_start: 'Commencer le séchage'
+  btn_skip_obj: 'Sauter'
 #BUTTONS END
 
   set_net_wifi_scaned: 'WiFi scanné'
@@ -107,7 +109,7 @@ French:
   filament_unknown: 'Le type de filament est inconnu, mais il est nécessaire pour effectuer cette action. Voulez-vous modifier les informations du filament ?'
   printer_add_repeat: 'Cette imprimante a déjà été ajoutée au Panda Touch et ne peut pas être ajoutée à nouveau.'
   printer_has_add: 'Déjà ajouté'
-  printer_busy: |2
+  printer_busy: |
 
 
     Busy Printing
@@ -178,9 +180,9 @@ French:
   notify_remind: 'Veuillez scanner le code pour voir les solutions possibles, ou cliquez sur le bouton « Aller à l''imprimante » pour définir cette imprimante comme imprimante « maître »'
   notify_remind_go_print: 'Aller à l''imprimante'
   notify_unknow_state: 'Code d''état inconnu de Panda Touch.'
+  
   00x0300100000020001: 'La fréquence de résonance de l''axe %s est faible. La courroie de distribution est peut-être desserrée.'
   00x0300100000020002: 'Le mode de résonance mécanique du 1er ordre de l''axe %s diffère beaucoup du dernier étalonnage, veuillez réexécuter l''étalonnage de la machine ultérieurement.'
-
   00x03000F0000010001: 'Les données de l''accéléromètre ne sont pas disponibles.'
   00x03000D000001000B: 'Le moteur de l''axe Z semble bloqué lors du déplacement vers le haut.'
   00x03000D0000010003: 'La plaque de construction n''est pas correctement placée. Veuillez l''ajuster.'
@@ -189,9 +191,9 @@ French:
   00x03000D0000010006: 'La plaque de construction n''est pas correctement placée. Veuillez l''ajuster.'
   00x03000D0000010007: 'La plaque de construction n''est pas correctement placée. Veuillez l''ajuster.'
   00x03000D0000010008: 'La plaque de construction n''est pas correctement placée. Veuillez l''ajuster.'
+  
   00x03000D0000010009: 'La plaque de construction n''est pas correctement placée. Veuillez l''ajuster.'
   00x03000D000001000A: 'La plaque de construction n''est pas correctement placée. Veuillez l''ajuster.'
-
   00x03000D0000020001: 'Le lit chauffant se déplace de manière anormale.'
   00x03000A0000010005: 'Le capteur de force %s a détecté une force continue inattendue. Le plateau chauffant est peut-être bloqué ou le frontal analogique est peut-être cassé.'
   00x03000A0000010004: 'Une perturbation externe a été détectée lors du test de la sensibilité du capteur de force. La plaque chauffante a peut-être touché quelque chose à l''extérieur du lit chauffant.'
@@ -447,6 +449,7 @@ French:
   tip_network_error: 'La connexion a échoué, veuillez vérifier le réseau.'
   tip_login_ok: |
     Connexion au Cloud réussie!
+    
     Souhaitez-vous convertir toutes les imprimantes existantes en mode cloud ? Sélectionnez Oui uniquement si vous n'utilisez aucune imprimante en « mode LAN ». Si vous utilisez des imprimantes en « mode LAN », ajoutez plutôt manuellement chaque imprimante au cloud en modifiant les paramètres du mode.
   tip_account_sync_ok: 'Les imprimantes ont été converties avec succès en mode cloud. Vous pouvez voir l état actuel du mode de chaque imprimante sur la page multi-appareils.'
   tip_account_sync_error: 'Certaines imprimantes n ont pas pu être converties en mode cloud. Veuillez vérifier vos paramètres Wi-Fi et mode cloud et réessayer.'
@@ -500,7 +503,8 @@ French:
   tip_move_confirm: 'L imprimante/le groupe d imprimantes est en cours d impression et ne peut pas être déplacé.'
   tip_always_sleep: 'Cette opération endommagera l écran. Voulez-vous continuer?'
   tip_bind_power: |
-    Appuyez sur le bouton Panda PWR et maintenez-le enfoncé jusqu'à ce que le voyant bleu commence à clignoter, puis placez le Panda Touch contre le boîtier Panda PWR pour vous connecter.
+    Appuyez sur le bouton Panda PWR et maintenez-le enfoncé jusqu'à ce que le voyant bleu
+    commence à clignoter, puis placez le Panda Touch contre le boîtier Panda PWR pour vous connecter.
   tip_remove_keep_one: 'Veuillez conserver au moins une imprimante.'
   tip_remove_printer_with_power: 'Cette imprimante est liée à Panda PWR. Voulez-vous continuer à la supprimer?'
   tip_about_power: |
