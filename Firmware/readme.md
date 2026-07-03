@@ -24,6 +24,8 @@ Firmware for **v1.0.8.0 and later** will be published on the GitHub Releases pag
 
 [https://github.com/bigtreetech/PandaTouch/releases](https://github.com/bigtreetech/PandaTouch/releases)
 
+<img src="https://raw.githubusercontent.com/bigtreetech/PandaTouch/master/img/how_to_download_release.gif" width="700" alt="How to download release files">
+
 Each release contains at least:
 
 * `panda_touch-vxx.xx.xx.xx.bin`
