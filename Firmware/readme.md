@@ -1,42 +1,44 @@
-# 🐼 Panda Touch 固件
+# 🐼 Panda Touch Firmware
 
-本仓库用于发布 **Panda Touch 固件**。
+This repository is used to publish **Panda Touch firmware**.
 
-用户可以从 **GitHub Releases** 页面下载固件。
+Users can download firmware files from the **GitHub Releases** page.
 
 ---
 
-## ⚠️ 重要说明
+## ⚠️ Important Notice
 
-请使用 Panda Touch 上的 OTA 更新工具安装此固件。
+Please use the OTA update tool on Panda Touch to install this firmware.
 
-如果你不确定如何使用该工具，请参考 BIGTREETECH Wiki 上的官方更新指南：
+If you are not sure how to use the update tool, refer to the official BIGTREETECH Wiki update guide:
+
 [https://global.bttwiki.com/PandaTouch.html#how-to-update-firmware](https://global.bttwiki.com/PandaTouch.html#how-to-update-firmware)
 
 ---
 
-## 📦 下载位置
+## 📥 Where to Download
 
-**V1.0.8.0 及以上版本** 的固件都会发布在 GitHub Releases 页面。
+Firmware for **v1.0.8.0 and later** will be published on the GitHub Releases page.
 
-👉 访问地址：
+👉 Access it here:
+
 [https://github.com/bigtreetech/PandaTouch/releases](https://github.com/bigtreetech/PandaTouch/releases)
 
-每个发布版本至少包含：
+Each release contains at least:
 
 * `panda_touch-vxx.xx.xx.xx.bin`
 * `xx-XX.img`
 
-请务必 **同时下载这两个文件**。
+✅ Please make sure to download **both files**.
 
 ---
 
-## 🔔 获取新版本通知
+## 🔔 Get Release Notifications
 
-如果你不想手动检查是否有新版本，可以在 GitHub 上开启发布通知：
+If you do not want to manually check for new versions, you can enable release notifications on GitHub:
 
 ```text
-仓库页面 -> Watch -> Custom -> ✅ Releases
+Repository page -> Watch -> Custom -> Releases
 ```
 
-开启后，每当发布新的固件版本时，你都会收到邮件通知。
+After this is enabled, you will receive an email notification whenever a new firmware version is published.

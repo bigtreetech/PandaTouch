@@ -1,101 +1,101 @@
-# 🐼 PandaTouch 固件发布 v1.0.8.0
+# 🐼 PandaTouch Firmware Release v1.0.8.0
 
-## 📖 概览
+## 📖 Overview
 
-本次发布面向所有用户，重点提升 **系统稳定性**、**OTA 可靠性**、**AMS 支持** 以及 **UI/UX 体验**。
+This release is intended for all users, with major improvements to **system stability**, **OTA reliability**, **AMS support**, and the overall **UI/UX experience**.
 
-### ✨ 主要亮点
+### ✨ Highlights
 
-- 重新设计 AMS 界面，槽位布局和状态显示更清晰
-- 重构了耗材管理界面以及耗材管理逻辑
-- 改进 AMS2 / AMS-HT 识别逻辑
-- 新增打印机 / 分组列表视图模式
-- 优化打印唤醒行为，打印任务进行中设备会保持唤醒
-- 打印运行时新增屏幕保护模式
-- 修复休眠 / 唤醒导致的崩溃和连续重启问题
-- 重构文件管理界面，优化文件管理逻辑和缩略图显示
-- 修复登录 BBL 云账户时导致的设备重启问题
-- 改进 Wi-Fi 兼容性（WPA2 / WPA3）
-- OTA IMG 更新流程增加校验，并优化更新过程中的稳定性
-- 更新 HMS 通知提示并添加新的通知提示信息
+- Redesigned the AMS interface with clearer slot layout and status display.
+- Refactored the filament management interface and related filament management logic.
+- Improved AMS2 / AMS-HT detection logic.
+- Added printer / group list view modes.
+- Optimized print wake behavior so the device stays awake while a print task is running.
+- Added a screen saver mode during printing.
+- Fixed crashes and repeated reboot issues caused by sleep / wake behavior.
+- Refactored the file manager interface and improved file management logic and thumbnail display.
+- Fixed a device reboot issue that could occur when logging in to a Bambu Lab cloud account.
+- Improved Wi-Fi compatibility for WPA2 / WPA3 networks.
+- Added validation to the OTA IMG update process and improved update stability.
+- Updated HMS notification prompts and added new notification messages.
 
 ---
 
-## 📋 更新日志
+## 📋 Changelog
 
 ### 🔧 Bug Fixes
 
-- 修复休眠 / 唤醒崩溃导致的连续重启问题  
+- Fixed repeated reboot issues caused by sleep / wake crashes.  
   [https://github.com/bigtreetech/PandaTouch/issues/260](https://github.com/bigtreetech/PandaTouch/issues/260)
 
-- 修复频繁短周期重启问题 / 修复设备在唤醒或打印开始后进入重启循环的问题  
+- Fixed frequent short-cycle reboot issues and reboot loops after wake or print start.  
   [https://github.com/bigtreetech/PandaTouch/issues/328](https://github.com/bigtreetech/PandaTouch/issues/328)
 
-- OTA IMG 更新流程增加校验，并优化更新过程中的稳定性，降低刷写过程中途失败的概率  
+- Added validation to the OTA IMG update process and improved update stability, reducing the probability of update failures during flashing.  
   [https://github.com/bigtreetech/PandaTouch/issues/327](https://github.com/bigtreetech/PandaTouch/issues/327)
 
-- 修复 AMS2 / AMS-HT 搜索与识别逻辑  
+- Fixed AMS2 / AMS-HT search and detection logic.  
   [https://github.com/bigtreetech/PandaTouch/issues/332](https://github.com/bigtreetech/PandaTouch/issues/332)
 
-- 修复外置料架加载逻辑，确保进料 / 退料操作正常
+- Fixed external spool holder loading logic to ensure feed / unload operations work correctly.
 
-- 解决外置料架刷新和 AMS 槽位映射问题，确保槽位状态正确显示  
+- Fixed external spool refresh and AMS slot mapping issues to ensure slot status is displayed correctly.  
   [https://github.com/bigtreetech/PandaTouch/issues/313](https://github.com/bigtreetech/PandaTouch/issues/313)
 
-- 增强 WPA2 / WPA3 Wi-Fi 兼容性  
+- Improved WPA2 / WPA3 Wi-Fi compatibility.  
   [https://github.com/bigtreetech/PandaTouch/issues/331](https://github.com/bigtreetech/PandaTouch/issues/331)
 
-- 修复登录 BBL 云账户时导致的设备重启问题
+- Fixed a device reboot issue that could occur when logging in to a Bambu Lab cloud account.
 
 ### 🚀 Functional Optimizations
 
-- 优化打印唤醒行为，打印任务进行中设备保持唤醒状态
+- Optimized print wake behavior so the device stays awake while a print task is running.
 
-![wake](images/wake.png)
+![wake](https://raw.githubusercontent.com/bigtreetech/PandaTouch/master/Firmware/1.0.8.0/images/wake.png)
 
-- 重新设计固件警告流程，使恢复路径更清晰  
+- Redesigned the firmware warning flow to make the recovery path clearer.  
   [https://github.com/bigtreetech/PandaTouch/issues/333](https://github.com/bigtreetech/PandaTouch/issues/333)
 
-- 优化固件更新期间的警告提示体验
+- Optimized warning prompts during firmware updates.
 
-- 重新设计 AMS 界面，槽位布局和状态显示更清晰
+- Redesigned the AMS interface with clearer slot layout and status display.
 
-![ams2](images/ams2.png)
+![ams2](https://raw.githubusercontent.com/bigtreetech/PandaTouch/master/Firmware/1.0.8.0/images/ams2.png)
 
-- 重构了耗材管理界面以及耗材管理逻辑
+- Refactored the filament management interface and related filament management logic.
 
-![ams-ext](images/ams-ext.png)
+![ams-ext](https://raw.githubusercontent.com/bigtreetech/PandaTouch/master/Firmware/1.0.8.0/images/ams-ext.png)
 
-- 新增打印机和分组列表视图模式  
+- Added printer and group list view modes.  
   [https://github.com/bigtreetech/PandaTouch/issues/92](https://github.com/bigtreetech/PandaTouch/issues/92)
 
-![List Mode](images/List-Mode.png)
+![List Mode](https://raw.githubusercontent.com/bigtreetech/PandaTouch/master/Firmware/1.0.8.0/images/List-Mode.png)
 
-![homeListMode](images/homeListMode.png)
+![homeListMode](https://raw.githubusercontent.com/bigtreetech/PandaTouch/master/Firmware/1.0.8.0/images/homeListMode.png)
 
-- 优化进料 / 退料操作流程中的步骤提示
+- Optimized step prompts in the feed / unload operation flow.
 
-- 优化警告弹窗
+- Optimized warning popups.
 
-- 打印运行时新增屏幕保护模式，在打印运行时保护屏幕不被误操作
+- Added a screen saver mode during printing to help prevent accidental operation while a print is running.
 
-![pandatouch-screenshot](images/pandatouch-screenshot.png)
+![pandatouch-screenshot](https://raw.githubusercontent.com/bigtreetech/PandaTouch/master/Firmware/1.0.8.0/images/pandatouch-screenshot.png)
 
-- 重构文件管理界面，优化文件管理逻辑和缩略图显示逻辑  
+- Refactored the file manager interface and improved file management logic and thumbnail display logic.  
   [https://github.com/bigtreetech/PandaTouch/issues/276](https://github.com/bigtreetech/PandaTouch/issues/276)
 
-![File Manager List Mode](images/File-Manager-List-Mode.png)
+![File Manager List Mode](https://raw.githubusercontent.com/bigtreetech/PandaTouch/master/Firmware/1.0.8.0/images/File-Manager-List-Mode.png)
 
-![File Manager View Mode](images/File-Manager-View-Mode.png)
+![File Manager View Mode](https://raw.githubusercontent.com/bigtreetech/PandaTouch/master/Firmware/1.0.8.0/images/File-Manager-View-Mode.png)
 
-![USB Stick View Mode](images/USB-stick-View-Mode.png)
+![USB Stick View Mode](https://raw.githubusercontent.com/bigtreetech/PandaTouch/master/Firmware/1.0.8.0/images/USB-stick-View-Mode.png)
 
-- 更新通知提示并添加新的通知提示信息
+- Updated notification prompts and added new notification message content.
 
 ---
 
-## 🔄 更新方式
+## 🔄 Update Method
 
-固件更新说明：
+Firmware update guide:
 
 - [https://global.bttwiki.com/PandaTouch.html#how-to-update-firmware](https://global.bttwiki.com/PandaTouch.html#how-to-update-firmware)
