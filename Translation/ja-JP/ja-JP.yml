@@ -114,10 +114,7 @@ ja-JP:
   filament_unknown: 'フィラメントタイプが不明ですが、このアクションを実行する必要があります。フィラメント情報を編集しますか？'
   printer_add_repeat: 'このプリンターはすでにパンダタッチに追加されており、再追加できません。'
   printer_has_add: '既に追加済み'
-  printer_busy: |
-    
-    
-     印刷中
+  printer_busy: '印刷中'
   nozzle_temperature: 'ノズル温度'
   bambu_info_readonly: 'バンブーフィラメント情報はRFIDに保存され、読み取り専用です。'
   setting_slot_not_sup: '印刷中のスロット情報設定はサポートされていません。'
